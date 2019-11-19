@@ -18,7 +18,7 @@ public class BiggerIsGreater {
 	               words[j] = temp;
 	            }
 	         }
-	      }
+	      }  
 	      for(int i = 0; i < n; i++) {
 	         System.out.println(words[i]);
 	      }
