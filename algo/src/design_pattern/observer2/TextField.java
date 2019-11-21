@@ -1,12 +1,12 @@
-package design_pattern.observer;
+package design_pattern.observer2;
 
 import java.util.ArrayList;
 
-public class Button implements Component {
-	
+public class TextField implements Component{
 	private ArrayList<Listener> listeners;
+	private String s;
 	
-	public Button() {
+	public TextField() {
 		this.listeners = new ArrayList<Listener>();
 	}
 	
@@ -30,8 +30,12 @@ public class Button implements Component {
 		}
 	}
 	
-	public void buttonClicked() {
-		notifyListeners();
+	public void setText(String s) {
+		this.s = s;
 	}
 	
+	public String getText() {
+		return s;
+	}
+
 }

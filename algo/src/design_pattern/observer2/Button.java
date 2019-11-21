@@ -1,4 +1,4 @@
-package design_pattern.observer;
+package design_pattern.observer2;
 
 import java.util.ArrayList;
 
@@ -28,10 +28,6 @@ public class Button implements Component {
 		for(Listener l : listeners) {
 			l.performAction();
 		}
-	}
-	
-	public void buttonClicked() {
-		notifyListeners();
 	}
 	
 }
