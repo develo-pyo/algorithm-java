@@ -22,7 +22,6 @@ public class DynamicArray {
 //			r[i] = arr[(l-m+i)%l];
 //			System.out.print(r[i]);
 //		}
-//		
 		
 		int[] arr = new int[3];
 		arr[1] = 4;

@@ -15,7 +15,7 @@ public class TWOD_array {
 		int col = arr[0].length;
 		
 		int biggest = -100;
-        
+         
         for(int i=0; i<row-2; i++) {
             for(int j=0; j<col-2; j++) {
                 int tmp = arr[i][j] + arr[i][j+1]   + arr[i][j+2]

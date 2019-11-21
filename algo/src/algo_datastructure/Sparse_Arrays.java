@@ -19,7 +19,7 @@ public class Sparse_Arrays {
 			i++;
 		}
 		
-		
+		  
 		for(int r : result) {
 			System.out.print(r + " ");
 		}
