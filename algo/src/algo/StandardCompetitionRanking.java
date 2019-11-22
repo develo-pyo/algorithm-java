@@ -24,15 +24,15 @@ public class StandardCompetitionRanking {
 
 		
 		//배열 하나에 점수들이 있을 때 점수들 순위 매기기
-//		int[] scores = {80, 90, 90, 100}; 
-//		int[] ranks = new int[scores.length];
-//		ranks[0] = 1;
-//		for (int i = 1; i < ranks.length; i++) {
-//			ranks[i] = scores[i] == scores[i - 1] ? ranks[i - 1] : i + 1;
-//		}
-//		for(int rank : ranks) {
-//			System.out.print(rank + " ");
-//		}
+		int[] scores = {80, 90, 90, 100}; 
+		int[] ranks = new int[scores.length];
+		ranks[0] = 1;
+		for (int i = 1; i < ranks.length; i++) {
+			ranks[i] = scores[i] == scores[i - 1] ? ranks[i - 1] : i + 1;
+		}
+		for(int rank : ranks) {
+			System.out.print(rank + " ");
+		}
 		
 		
 	}
