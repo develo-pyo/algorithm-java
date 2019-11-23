@@ -2,7 +2,7 @@ package algo;
 
 import java.math.BigInteger;
 
-public class ladyBugs {
+public class LadyBugs {
 	// Complete the happyLadybugs function below.
 	public static void main(String[] args) {
 		

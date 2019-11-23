@@ -1,6 +1,6 @@
 package algo;
 
-public class fibonacci {
+public class Fibonacci {
 	
 	public static void main(String[] args) {
 		System.out.println(recursionFibonacci(3));

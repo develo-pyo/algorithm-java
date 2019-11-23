@@ -4,7 +4,7 @@ import java.math.BigInteger;
 import java.util.HashSet;
 import java.util.Set;
 
-public class factorial_bigInteger {
+public class Factorial_bigInteger {
 	// Complete the happyLadybugs function below.
 	public static void main(String[] args) {
 		sample("RBY_YBR");
