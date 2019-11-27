@@ -6,7 +6,7 @@ import java.net.URLConnection;
 public class Main {
 	
 	public static void main(String[] args) throws Exception {
-		
+		//test
 		URL h = new URL("test");
 		
 		URLConnection c = h.openConnection();
