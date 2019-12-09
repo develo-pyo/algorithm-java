@@ -1,4 +1,4 @@
-package algo_datastructure;
+package algo_datastructure.algo;
 
 public class TWOD_array {
 	
