@@ -1,4 +1,4 @@
-package algo;
+package algo_hackerrank;
 
 import java.util.HashMap;
 import java.util.Map;

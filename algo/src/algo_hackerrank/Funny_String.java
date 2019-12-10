@@ -1,4 +1,4 @@
-package algo;
+package algo_hackerrank;
 
 public class Funny_String {
 
