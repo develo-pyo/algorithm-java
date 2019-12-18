@@ -15,6 +15,7 @@ public class SeparateTheNumbers {
 	private static void solu(String input) {
 		
 		if(input.length()<2) {
+			//예외처리
 			System.out.println("NO");
 			return;
 		} else {
@@ -33,7 +34,6 @@ public class SeparateTheNumbers {
 							System.out.println("YES " + initStart);
 							return;
 						}
-						
 						start = String.valueOf(new BigInteger(start).add(new BigInteger("1")));
 					} else {
 						break;

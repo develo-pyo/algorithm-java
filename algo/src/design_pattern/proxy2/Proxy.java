@@ -11,7 +11,4 @@ public class Proxy implements Subject {
 		}
 		return realSubject.action();
 	}
-	
-	
-	
 }
