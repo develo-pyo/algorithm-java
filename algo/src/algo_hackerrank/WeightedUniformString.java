@@ -11,7 +11,6 @@ public class WeightedUniformString {
 		
 		int[] arr = {9,7,8,12,5};
 		
-		
 		String[] rs = solu("aaabbbbcccddd", arr);
 		for(String r : rs) {
 			System.out.println(r);
@@ -38,7 +37,6 @@ public class WeightedUniformString {
 		}
 		
 		for(int i=0; i<queries.length; i++) {
-			
 			if(set.contains(queries[i])) {
 				result[i] = "Yes";
 			} else {
