@@ -10,7 +10,6 @@ public class WeightedUniformString {
 	public static void main(String[] args) {
 		
 		int[] arr = {9,7,8,12,5};
-		
 		String[] rs = solu("aaabbbbcccddd", arr);
 		for(String r : rs) {
 			System.out.println(r);
