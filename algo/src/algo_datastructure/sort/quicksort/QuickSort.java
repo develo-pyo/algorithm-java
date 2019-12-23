@@ -2,11 +2,6 @@ package algo_datastructure.sort.quicksort;
 
 public class QuickSort {
 	
-//	public static void main(String[] args) {
-//		int arr[] = {1, 8, 6, 2, 4, 3, 5, 7};
-//		
-//	}
-	
 	  public void sort(int[] data, int l, int r){
 	        int left = l;
 	        int right = r;
@@ -39,8 +34,5 @@ public class QuickSort {
 	            System.out.print(data[i]+ " ");
 	        }
 	    }
-
-
-	
 	
 }
