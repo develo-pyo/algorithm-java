@@ -4,7 +4,6 @@ public class Pangrams {
 	
 	//hackerrank pangrams easy
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		System.out.println(solu("The quick brown fox jumps over the lazy dog"));
 	}
 
