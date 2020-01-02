@@ -2,6 +2,7 @@ package algo_datastructure.algo;
 
 public class TWOD_array {
 	
+	//hackerrank 2D array
 	public static void main(String[] args) {
 		
 		int[][] arr = {
