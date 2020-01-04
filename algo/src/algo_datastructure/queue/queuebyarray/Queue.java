@@ -3,7 +3,7 @@ package algo_datastructure.queue.queuebyarray;
 public class Queue {
 	
 	private int[] array = new int[100];
-	private int lastIdx = 0;
+	int lastIdx = 0;
 	
 	public void add(int input) {
 		array[lastIdx] = input;
@@ -11,11 +11,11 @@ public class Queue {
 	}
 	
 	public int peek() {
-		return array[lastIdx];
+		return array[0];
 	}
 	
-	public int pop() {
-		int rs = array[lastIdx];
+	public int poll() {
+		int rs = array[0];
 		
 		for(int i=1; i<=lastIdx; i++) {
 			array[i-1] = array[i];
