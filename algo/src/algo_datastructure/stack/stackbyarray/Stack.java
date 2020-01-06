@@ -1,7 +1,5 @@
 package algo_datastructure.stack.stackbyarray;
 
-import java.lang.reflect.Array;
-
 public class Stack {
 	private int[] array = new int[100];
 	private int lastIdx = 0;
