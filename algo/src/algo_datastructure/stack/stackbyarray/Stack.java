@@ -1,6 +1,6 @@
 package algo_datastructure.stack.stackbyarray;
 
-public class Stack {
+class Stack {
 	private int[] array = new int[100];
 	private int lastIdx = 0;
 	
