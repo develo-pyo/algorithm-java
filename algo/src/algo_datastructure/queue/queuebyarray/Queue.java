@@ -1,6 +1,6 @@
 package algo_datastructure.queue.queuebyarray;
 
-public class Queue {
+class Queue {
 	
 	private int[] array = new int[100];
 	int lastIdx = 0;
