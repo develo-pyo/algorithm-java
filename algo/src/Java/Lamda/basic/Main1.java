@@ -2,7 +2,7 @@ package Java.Lamda.basic;
 
 public class Main1 {
 	
-	//java lamda
+	//java lambda
 	//jdk 1.8~
 	//함수형 프로그래밍
 	//인터페이스 + 익명객체 + 람다식
@@ -20,10 +20,9 @@ public class Main1 {
 		};
 		i.sayHello();
 		
-		
-		//lamda 는 Functional Interface 에만 사용이 가능하다?
+		//lamda 는 Functional Interface 에만 사용이 가능하다
 		Interface lamda = () -> {
-			System.out.println("HELLO! in anonymous method(lamda)");
+			System.out.println("HELLO! in anonymous method(lambda)");
 		};
 		lamda.sayHello();
 	}
