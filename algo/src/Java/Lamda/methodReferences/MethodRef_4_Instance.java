@@ -15,14 +15,14 @@ public class MethodRef_4_Instance {
 	public static void main(String[] args){
 		
 		/** 4. 인스턴스 메소드 참조 */
-		Person person = new Person();
+		Person person = new Person("pyo");
 		Func func = person::getName;
-		System.out.println(func.toStr());
+		System.out.println(func.anony());
 		
 	}
 	
 	@FunctionalInterface
 	interface Func {
-		String toStr();
+		String anony();
 	}
 }

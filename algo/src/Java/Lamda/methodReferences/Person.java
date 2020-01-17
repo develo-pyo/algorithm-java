@@ -3,9 +3,14 @@ package Java.Lamda.methodReferences;
 public class Person {
 	
 	private String name;
+	private String gender;
 	
 	public Person() {
-		name="anony";
+	}
+	
+	public Person(String name, String gender) {
+		this.name=name;
+		this.gender = gender;
 	}
 	
 	public Person(String name) {
@@ -19,5 +24,11 @@ public class Person {
 	public void setName(String name) {
 		this.name = name;
 	}
-	
+	public String getGender() {
+		return gender;
+	}
+
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
 }

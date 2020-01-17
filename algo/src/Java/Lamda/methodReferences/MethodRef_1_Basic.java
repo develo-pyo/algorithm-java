@@ -14,12 +14,13 @@ public class MethodRef_1_Basic {
 		FuncI funcI = (Object obj) -> String.valueOf(obj);
 		System.out.println(funcI.anony("HELLO"));
 		
-		//위 경우 아래와 같이 메소드 참조가 가능 1
+		//위 경우 아래와 같이 메소드 참조가 가능
 		FuncI funcI_ref_method = String::valueOf;
 		System.out.println(funcI_ref_method.anony(100));
 		
-		//위 경우 아래와 같이 메소드 참조가 가능 2
-		System.out.println(convert(99, String::valueOf));
+		//절대값을 구해주는 Math.abs 를 참조 
+		System.out.println("abs ref : "+convert(-1, Math::abs));
+		
 		
 		
 		//static 인 경우, 클래스::메소드;
@@ -32,10 +33,6 @@ public class MethodRef_1_Basic {
 		
 		
 		/** 2. 생성자 참조 */
-		
-		
-		
-		
 		/** 3. 스태틱 메소드 참조 */
 		/** 4. 인스턴스 메소드 참조 */
 		/** 5. 인스턴스 메소드 참조 */
@@ -46,7 +43,12 @@ public class MethodRef_1_Basic {
 		String anony(Object obj);
 	}
 	
-	public static String convert(Integer number, FuncI func) {
+	@FunctionalInterface
+	interface MathAbs {
+		int anony(int obj);
+	}
+	
+	public static int convert(int number, MathAbs func) {
 		return func.anony(number);
 	}
 	
