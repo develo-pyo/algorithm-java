@@ -4,9 +4,10 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 public class BiggestNum {
-
+	
+	//프로그래머스, 정렬, 가장 큰 수
 	public static void main(String[] args) {
-		int[] numbers = {0, 0};	
+		int[] numbers = {91, 9, 92};	
 		String answer = new String();
 		
 		String str_numbers[] = new String[numbers.length];
