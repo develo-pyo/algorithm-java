@@ -7,6 +7,5 @@ public class ComputerFactory {
 		
 		keyboardFactory.createKeyboard(type);
 		mouseFactory.createMouse(type);
-		
 	}
 }
