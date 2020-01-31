@@ -3,7 +3,8 @@ package algo_hackerrank;
 import java.util.Arrays;
 
 public class MarksCakewalk {
-
+	
+	//hackerrank easy : Mark's Cakewalk
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Integer[] arr = {7, 4, 9, 6};
