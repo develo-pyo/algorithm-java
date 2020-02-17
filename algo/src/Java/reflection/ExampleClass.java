@@ -23,5 +23,4 @@ public class ExampleClass extends ExampleSuperClass {
    public String addStrInt(String a, int b) {
       return a+b;
    }
-   
 }

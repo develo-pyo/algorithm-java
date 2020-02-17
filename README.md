@@ -2,9 +2,10 @@
 studying by myself
 
 
+1. Algorithm practice for an interview : Hackerrank(website), Programmers(website)
 
-Algorithm study through : Hackerrank, Programmers and so on.
+2. Data Structure study : Programmers(website), other developer's blog and so on
 
-Data Structure study through : Programmers and so on.
+3. Java Design Pattern study : Head first design patterns(book), other developer's blog and so on
 
-Java Design Pattern study through : Head first design patterns(book) and so on.
+4. basic Java grammar study : 자바의정석(book), 이것이자바다(book), other developer's blog
