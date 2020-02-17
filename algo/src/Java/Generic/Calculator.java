@@ -2,16 +2,16 @@ package Java.Generic;
 
 public class Calculator {
 	public static <T extends Food> int add1(Cart<T> cart1, Cart<T> cart2, Cart<T> cart3) {
-		//Á¦³×¸¯ ¸Þ¼Òµå¿¡¼­ÀÇ Å¸ÀÔ ÆÄ¶ó¹ÌÅÍÀÇ Á¦ÇÑ
-		//Å¸ÀÔÆÄ¶ó¹ÌÅÍ¸¦ Food ·Î Á¦ÇÑ
-		//¸Å°³º¯¼ö´Â Å¸ÀÔÆÄ¶ó¹ÌÅÍÀÎ T¸¦ °®´Â CartÀÌ¸ç, T´Â Food ¹× Food ÀÇ subclass ·Î Á¦ÇÑ
+		//ï¿½ï¿½ï¿½×¸ï¿½ ï¿½Þ¼Òµå¿¡ï¿½ï¿½ï¿½ï¿½ Å¸ï¿½ï¿½ ï¿½Ä¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+		//Å¸ï¿½ï¿½ï¿½Ä¶ï¿½ï¿½ï¿½Í¸ï¿½ Food ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+		//ï¿½Å°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Å¸ï¿½ï¿½ï¿½Ä¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Tï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ Cartï¿½Ì¸ï¿½, Tï¿½ï¿½ Food ï¿½ï¿½ Food ï¿½ï¿½ subclass ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 		int result = 0;
 		result = cart1.getItems().size() + cart2.getItems().size() + cart3.getItems().size();
 		return result;
 	}
 	
 //	public static <T super Food> int add2(Cart<T> cart1, Cart<T> cart2, Cart<T> cart3) {	
-//		//Á¦³×¸¯ ¸Þ¼Òµå¿¡¼­ Å¸ÀÔ ÆÄ¶ó¹ÌÅÍ¸¦ Á¦ÇÑÇÒ ¶§ À§¿Í °°Àº superÅ°¿öµå´Â ºÒ°¡ 
+//		//ï¿½ï¿½ï¿½×¸ï¿½ ï¿½Þ¼Òµå¿¡ï¿½ï¿½ Å¸ï¿½ï¿½ ï¿½Ä¶ï¿½ï¿½ï¿½Í¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ superÅ°ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ò°ï¿½ 
 //		//compile error
 //		int result = 0;
 //		result = cart1.getItems().size() + cart2.getItems().size() + cart3.getItems().size();
@@ -19,19 +19,19 @@ public class Calculator {
 //	}
 	
 	public static int add3(Cart<? super Food> cart1, Cart<?> cart2, Cart<? extends Food> cart3) {
-		//¸Å°³º¯¼öÀÇ Å¸ÀÔÀ» ¿ÍÀÏµåÄ«µå (?)¸¦ »ç¿ëÇÏ¿© Á¦ÇÑ
-		//cart1 ¸Æ´ëº¯¼ö(Cart)ÀÇ Å¸ÀÔÆÄ¶ó¹ÌÅÍ : Food ¹× Food ¸¦ subclass 
-		//cart2 ¸Å°³º¯¼ö(Cart)ÀÇ Å¸ÀÔÆÄ¶ó¹ÌÅÍ : ¾Æ¹« Å¸ÀÔÀÌ³ª ´ã°íÀÖ´Â Cart
-		//cart3 ¸Å°³º¯¼ö(Cart)ÀÇ Å¸ÀÔÆÄ¶ó¹ÌÅÍ : Food ¹× Food ÀÇ subclass
+		//ï¿½Å°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Å¸ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ïµï¿½Ä«ï¿½ï¿½ (?)ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï¿ï¿½ ï¿½ï¿½ï¿½ï¿½
+		//cart1 ï¿½Æ´ëº¯ï¿½ï¿½(Cart)ï¿½ï¿½ Å¸ï¿½ï¿½ï¿½Ä¶ï¿½ï¿½ï¿½ï¿½ : Food ï¿½ï¿½ Food ï¿½ï¿½ subclass 
+		//cart2 ï¿½Å°ï¿½ï¿½ï¿½ï¿½ï¿½(Cart)ï¿½ï¿½ Å¸ï¿½ï¿½ï¿½Ä¶ï¿½ï¿½ï¿½ï¿½ : ï¿½Æ¹ï¿½ Å¸ï¿½ï¿½ï¿½Ì³ï¿½ ï¿½ï¿½ï¿½ï¿½Ö´ï¿½ Cart
+		//cart3 ï¿½Å°ï¿½ï¿½ï¿½ï¿½ï¿½(Cart)ï¿½ï¿½ Å¸ï¿½ï¿½ï¿½Ä¶ï¿½ï¿½ï¿½ï¿½ : Food ï¿½ï¿½ Food ï¿½ï¿½ subclass
 		int result = 0;
 		result = cart1.getItems().size() + cart2.getItems().size() + cart3.getItems().size();
 		return result;
 	}
 	
 	public static <T extends Food> int add4(Cart<T> cart1, Cart<T> cart2) {
-		//Á¦³×¸¯ ¸Þ¼Òµå¿¡¼­ÀÇ Å¸ÀÔ ÆÄ¶ó¹ÌÅÍÀÇ Á¦ÇÑ
-		//Å¸ÀÔÆÄ¶ó¹ÌÅÍ¸¦ Food ·Î Á¦ÇÑ
-		//¸Å°³º¯¼ö´Â Å¸ÀÔÆÄ¶ó¹ÌÅÍÀÎ T¸¦ °®´Â CartÀÌ¸ç, T´Â Food ¹× Food ÀÇ subclass ·Î Á¦ÇÑ
+		//ï¿½ï¿½ï¿½×¸ï¿½ ï¿½Þ¼Òµå¿¡ï¿½ï¿½ï¿½ï¿½ Å¸ï¿½ï¿½ ï¿½Ä¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+		//Å¸ï¿½ï¿½ï¿½Ä¶ï¿½ï¿½ï¿½Í¸ï¿½ Food ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+		//ï¿½Å°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Å¸ï¿½ï¿½ï¿½Ä¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Tï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ Cartï¿½Ì¸ï¿½, Tï¿½ï¿½ Food ï¿½ï¿½ Food ï¿½ï¿½ subclass ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 		int result = 0;
 		result = cart1.getItems().size() + cart2.getItems().size();
 		return result;

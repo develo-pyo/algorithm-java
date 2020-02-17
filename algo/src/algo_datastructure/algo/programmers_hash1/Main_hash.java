@@ -11,7 +11,7 @@ public class Main_hash {
 		System.out.println(solu(part, comp));
 	}
 	
-	
+	//다른 사람의 풀이 hashmap 의 .getOrDefault 메소드 사용
 	private static String solu(String[] part, String[] comp) {
 	   String answer = "";
 	   
