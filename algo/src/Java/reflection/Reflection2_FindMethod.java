@@ -9,6 +9,10 @@ public class Reflection2_FindMethod {
       
       //1. class 가져오기
       Class clazz = Class.forName("Java.reflection.ExampleClass");
+
+      //1-1. class 가져오기(위와 같다)
+      Class clazz1 = ExampleClass.class;
+      
       
       //2. class 에서 method 가져오기
       Method methodArr[] = clazz.getDeclaredMethods();
@@ -38,8 +42,5 @@ public class Reflection2_FindMethod {
          
          System.out.println();
       }
-      
-      
    }
-   
 }

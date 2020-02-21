@@ -36,9 +36,5 @@ public class Reflection3_FindConstructor {
          //5) 생성자에 return type은 존재하지 않으므로 getReturnType() 메소드는 없음 
          System.out.println();
       }
-      
-      
-      
    }
-   
 }

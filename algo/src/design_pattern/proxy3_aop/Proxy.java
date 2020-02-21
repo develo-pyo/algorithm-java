@@ -18,10 +18,10 @@ public class Proxy implements Subject {
 	}
 	
 	private void preProcess() {
-		System.out.println("¼±ÇàÀÛ¾÷");
+		System.out.println("ì „ì²˜ë¦¬");
 	}
 	
 	private void postProcess() {
-		System.out.println("»çÈÄÀÛ¾÷");
+		System.out.println("í›„ì²˜ë¦¬");
 	}
 }

@@ -32,10 +32,7 @@ public class Reflection4_FindFields {
          System.out.println("modifiers toString : " + Modifier.toString(modifiers));
          System.out.println("isPublic? : " + (modifiers == Modifier.PUBLIC));
          
-         
          System.out.println();
       }
-      
    }
-   
 }
