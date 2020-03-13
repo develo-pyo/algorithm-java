@@ -4,16 +4,16 @@ public class Client {
 
 	public static void main(String[] args) {
 		
-		//1. ÅÚ·¹½ºÄÚÇÎ
+		//1. í…”ë ˆìŠ¤ì½”í•‘ ë°©ì‹ : ìƒì„±ì, ì˜¤ë²„ë¡œë”© ì‚¬ìš©
+	   //ëª¸í†µì´ ë„ˆë¬´ ì»¤ì§€ëŠ” ë¬¸ì œ
 		CoordinateTelescoping c1 = new CoordinateTelescoping(10, 10, 0, 0);
 
-		//2. ÀÚ¹Ùºó
+		//2. ìë°”ë¹ˆ ë°©ì‹ : setter ì‚¬ìš©
+		//null ë¬¸ì œ
 		CoordinateJavaBean c2 = new CoordinateJavaBean();
 		c2.setX(100);
 		
-		//3. ºô´õ
-		//°´Ã¼´Â ÇÊ¼ö ¸Å°³º¯¼ö¸¦ °®´Â »ı¼ºÀÚ·Î ¾ò°í,
-		//³ª¸ÓÁö ¼±ÅÃÇÊµå´Â setter ¸Ş¼Òµå »ç¿ë
+		//3. í…”ë ˆìŠ¤ì½”í•‘ + ìë°”ë¹ˆ ë°©ì‹ì´ í•©ì³ì§„ builder íŒ¨í„´
 		CoordinateBuilder c3 = new CoordinateBuilder.Builder(1000, 1000).w(100).h(100).build();
 		
 	}
