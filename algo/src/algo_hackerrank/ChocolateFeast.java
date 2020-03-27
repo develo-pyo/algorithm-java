@@ -1,4 +1,4 @@
-package algo_hackerrank;
+ï»¿package algo_hackerrank;
 
 public class ChocolateFeast {
 
@@ -9,8 +9,8 @@ public class ChocolateFeast {
 	}
 	
 	public static int solution(int n, int c, int m) {
-		int totChoco = 0;	//ÃÑ ÃÊÄÝ¸´ °¹¼ö
-		int wrap = 0;	//²®Áú°¹¼ö
+		int totChoco = 0;	//ì´ ì´ˆì½œë¦¿ ê°¯ìˆ˜
+		int wrap = 0;	//ê»ì§ˆê°¯ìˆ˜
 		
 //		n : 6 
 //		c : 2
@@ -30,7 +30,7 @@ public class ChocolateFeast {
 		totChoco += n/c;	
 		wrap = totChoco;	//3
 		int freeChoco = 0;
-		while(wrap >= m) { //²®ÁúÀÇ°¹¼ö°¡ ±³È¯ÀÌ °¡´ÉÇÑ ¼öÀÏ ¶§ ±îÁö
+		while(wrap >= m) { //ê»ì§ˆì˜ê°¯ìˆ˜ê°€ êµí™˜ì´ ê°€ëŠ¥í•œ ìˆ˜ì¼ ë•Œ ê¹Œì§€
 			totChoco += (int)(wrap/m);	//totChoco >> 4 wrap/m >> 1
 			wrap = (int)(wrap/m) + wrap%m;
 			System.out.println(wrap);

@@ -1,17 +1,17 @@
-package algo_datastructure.algo.programmers_hash1;
+ï»¿package algo_datastructure.algo.programmers_hash1;
 
 import java.util.Arrays;
 import java.util.Stack;
 
 public class Main {
-	//ÇÁ·Î±×·¡¸Ó½º > ÇØ½Ã > ¿ÏÁÖÇÏÁö ¸øÇÑ ¼±¼ö 
+	//í”„ë¡œê·¸ë˜ë¨¸ìŠ¤ > í•´ì‹œ > ì™„ì£¼í•˜ì§€ ëª»í•œ ì„ ìˆ˜ 
 	public static void main(String[] args) {
 		String[] part = {"a", "b", "b", "c"};
 		String[] comp = {"a", "b", "b"};
 		System.out.println(solu(part, comp));
 	}
 	
-	//³ªÀÇ Ç®ÀÌ
+	//ë‚˜ì˜ í’€ì´
 	private static String solu(String[] part, String[] comp) {
 		String result = "";
 		Arrays.sort(part);
@@ -29,14 +29,14 @@ public class Main {
 		return result;
 	}
 	
-	//°í¼öÀÇ Ç®ÀÌ
+	//ê³ ìˆ˜ì˜ í’€ì´
 	private static String solu2(String[] part, String[] comp) {
 		Arrays.sort(part);
 		Arrays.sort(comp);
 		print(comp);
 		print(comp);
 		
-		int i=0;	//for ¹®ÀÇ index ¸¦ ¹ÛÀ¸·Î »©¼­ »ç¿ë..
+		int i=0;	//for ë¬¸ì˜ index ë¥¼ ë°–ìœ¼ë¡œ ë¹¼ì„œ ì‚¬ìš©..
 		for(i=0; i<comp.length; i++) {
 			if(!part[i].equalsIgnoreCase(comp[i])){
 				return part[i];

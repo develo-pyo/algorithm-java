@@ -1,7 +1,7 @@
-package design_pattern.factory.factory1;
+ï»¿package design_pattern.factory.factory1;
 
 public class SamsungMouse implements Mouse {
 	public SamsungMouse() {
-		System.out.println("SAMSUNG ¸¶¿ì½º »ı¼º");
+		System.out.println("SAMSUNG ë§ˆìš°ìŠ¤ ìƒì„±");
 	}
 }

@@ -1,9 +1,9 @@
-package algo_datastructure.algo;
+ï»¿package algo_datastructure.algo;
 
 import java.util.Arrays;
 
 public class Programmers_KthNum {
-	//ÇÁ·Î±×·¡¸Ó½º ÄÚµùÅ×½ºÆ® ¿¬½À > Á¤·Ä > K¹øÂ° ¼ö
+	//í”„ë¡œê·¸ë˜ë¨¸ìŠ¤ ì½”ë”©í…ŒìŠ¤íŠ¸ ì—°ìŠµ > ì •ë ¬ > Kë²ˆì§¸ ìˆ˜
 	
 	public static void main(String[] args) {
 		int[] arr = {1, 5, 2, 6, 3, 7, 4};
@@ -14,7 +14,7 @@ public class Programmers_KthNum {
 	
 	}
 	
-	//³» ÄÚµå
+	//ë‚´ ì½”ë“œ
 	private static int[] solu(int[] arr, int[][] commands) {
 		
 		int i = -1;
@@ -43,7 +43,7 @@ public class Programmers_KthNum {
 		return result;
 	}
 	
-	//´Ù¸¥»ç¶÷ÀÇ ÄÚµå(Arrays.copyOfRange »ç¿ë)
+	//ë‹¤ë¥¸ì‚¬ëŒì˜ ì½”ë“œ(Arrays.copyOfRange ì‚¬ìš©)
 	private static int[] solu2(int[] arr, int[][] commands) {
 		int[] answer = new int[commands.length];
 

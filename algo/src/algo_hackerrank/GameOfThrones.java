@@ -7,10 +7,6 @@ public class GameOfThrones {
 
 	public static void main(String[] args) {
 		
-		// a b a b a È¦Â¦ O
-		// b a a b   Â¦Â¦ O
-		// a b a b a b È¦È¦ X
-		// È¦ 2°³ ÀÌ»óÀÎ °æ¿ì ¾ÈµÊ
 		
 		System.out.println(solu("aaabbbb"));
 	}

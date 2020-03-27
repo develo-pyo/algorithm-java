@@ -1,4 +1,4 @@
-package algo_hackerrank;
+ï»¿package algo_hackerrank;
 
 public class Funny_String {
 
@@ -20,8 +20,7 @@ public class Funny_String {
 //        i  1  2
 //      i-1  0  1
 		if(isEven) {
-            //Â¦¼ö
-            System.out.println("Â÷ °¹¼ö Â¦¼ö");
+            //ì§ìˆ˜
             for(int i=1; i<input.length(); i++) {
                 if(i-1 < mid) {
                     int a = input.charAt(i-1);
@@ -44,8 +43,7 @@ public class Funny_String {
                 }
             }
         } else {
-            //È¦¼ö
-            System.out.println("Â÷ °¹¼ö È¦¼ö");
+            //í™€ìˆ˜
             for(int i=1; i<input.length(); i++) {
                 int tmp = 0;
                 if(i-1 < mid) {

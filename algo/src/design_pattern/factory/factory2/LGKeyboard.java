@@ -1,7 +1,7 @@
-package design_pattern.factory.factory2;
+ï»¿package design_pattern.factory.factory2;
 
 public class LGKeyboard implements Keyboard {
 	public LGKeyboard() {
-		System.out.println("LG Å°º¸µå »ı¼º");
+		System.out.println("LG í‚¤ë³´ë“œ ìƒì„±");
 	}
 }

@@ -1,10 +1,10 @@
-package algo_datastructure.algo;
+ï»¿package algo_datastructure.algo;
 
 public class Sparse_Arrays {
 	
 	public static void main(String[] args) {
-		String[] str = {"aba", "baba", "aba", "xzxb"};	//ºñ±³´ë»ó¹®ÀÚ¿­
-		String[] query = {"aba", "xzxb", "ab"};	//±âÁØ¹®ÀÚ¿­
+		String[] str = {"aba", "baba", "aba", "xzxb"};	//ë¹„êµëŒ€ìƒë¬¸ìì—´
+		String[] query = {"aba", "xzxb", "ab"};	//ê¸°ì¤€ë¬¸ìì—´
 		
 		int[] result = new int[query.length];
 		int i = 0;

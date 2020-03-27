@@ -1,12 +1,12 @@
-package algo_programmers;
+ï»¿package algo_programmers;
 
 import java.util.Iterator;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
-//programmers, Èü, ´õ ¸Ê°Ô
-//³²ÀÇ Ç®ÀÌ : priorityqueue ¸¦ »ç¿ë. 
-//priorityqueue´Â µ¥ÀÌÅÍ ³ÖÀ» ¶§(add/offer)¸¶´Ù Á¤·ÄµÈ »óÅÂ·Î µ¥ÀÌÅÍ°¡ ÃàÀûµÇ¹Ç·Î ÀÌ¸¦ ÀÌ¿ëÇÏ¿© ½±°Ô ±¸Çö°¡´É
+//programmers, í™, ë” ë§µê²Œ
+//ë‚¨ì˜ í’€ì´ : priorityqueue ë¥¼ ì‚¬ìš©. 
+//priorityqueueëŠ” ë°ì´í„° ë„£ì„ ë•Œ(add/offer)ë§ˆë‹¤ ì •ë ¬ëœ ìƒíƒœë¡œ ë°ì´í„°ê°€ ì¶•ì ë˜ë¯€ë¡œ ì´ë¥¼ ì´ìš©í•˜ì—¬ ì‰½ê²Œ êµ¬í˜„ê°€ëŠ¥
 public class Spicier {
 
 	public static void main(String[] args) {
@@ -38,7 +38,7 @@ public class Spicier {
     }
 }
 
-////³ªÀÇ Ç®ÀÌ : È¿À²¼º¿¡¼­ ½ÇÆĞ
+////ë‚˜ì˜ í’€ì´ : íš¨ìœ¨ì„±ì—ì„œ ì‹¤íŒ¨
 //public class Spicier {
 //
 //	public static void main(String[] args) {

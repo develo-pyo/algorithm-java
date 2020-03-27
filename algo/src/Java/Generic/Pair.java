@@ -1,4 +1,4 @@
-package Java.Generic;
+﻿package Java.Generic;
 
 public class Pair<K, V> {
 

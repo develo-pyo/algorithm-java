@@ -1,4 +1,4 @@
-package algo_datastructure.set;
+ï»¿package algo_datastructure.set;
 
 import java.util.Comparator;
 import java.util.HashSet;
@@ -14,11 +14,11 @@ public class HashSLinkedHSTreeS {
 		
 		Set<Integer> set = new HashSet<>();
 		set.add(null);
-		set.add(null); //Áßº¹Çã¿ëX (nullµµ ÇÑ°³¸¸ Çã¿ë)
+		set.add(null); //ì¤‘ë³µí—ˆìš©X (nullë„ í•œê°œë§Œ í—ˆìš©)
 		set.add(3);
 		set.add(2);
 		set.add(1);
-		set.add(1);	//Áßº¹Çã¿ëX
+		set.add(1);	//ì¤‘ë³µí—ˆìš©X
 		
 		System.out.print("HashSet: ");
 		
@@ -35,7 +35,7 @@ public class HashSLinkedHSTreeS {
 		linkedHashSet.add(3);
 		linkedHashSet.add(2);
 		linkedHashSet.add(1);
-		linkedHashSet.add(1); //Áßº¹Çã¿ë X
+		linkedHashSet.add(1); //ì¤‘ë³µí—ˆìš© X
 		
 		System.out.print("linkedHashSet: ");
 		Iterator<Integer> li = set.iterator();
@@ -49,7 +49,7 @@ public class HashSLinkedHSTreeS {
 		treeSet.add(3);
 		treeSet.add(2);
 		treeSet.add(1);
-		treeSet.add(1); //Áßº¹Çã¿ëX
+		treeSet.add(1); //ì¤‘ë³µí—ˆìš©X
 		
 		System.out.print("TreeSet: ");
 		for(int i : treeSet) {
@@ -61,21 +61,21 @@ public class HashSLinkedHSTreeS {
 		Set<Integer> treeSetDescending = new TreeSet<>(new Comparator<Integer>() {
 			@Override
 			public int compare(Integer o1, Integer o2) {
-				//³»¸²Â÷¼ø
+				//ë‚´ë¦¼ì°¨ìˆœ
 				return o2-o1;
 			}
 		});
 		
 		System.out.print("TreeSetDescending: ");
 		try {
-			treeSetDescending.add(null);	//null Çã¿ë X
+			treeSetDescending.add(null);	//null í—ˆìš© X
 		}catch(NullPointerException ne) {
 			System.out.println("exception:"+ne.getMessage());
 		}
 		treeSetDescending.add(3);
 		treeSetDescending.add(2);
 		treeSetDescending.add(1);
-		treeSetDescending.add(1); //Áßº¹Çã¿ëX
+		treeSetDescending.add(1); //ì¤‘ë³µí—ˆìš©X
 		
 		for(int i : treeSetDescending) {
 			System.out.print(i+" ");

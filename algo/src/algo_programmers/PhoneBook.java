@@ -1,10 +1,10 @@
-package algo_programmers;
+ï»¿package algo_programmers;
 
 import java.util.Arrays;
 
 public class PhoneBook {
 	
-	//ÇÁ·Î±×·¡¸Ó½º, ÇØ½Ã, ÀüÈ­¹øÈ£ ¸ñ·Ï
+	//í”„ë¡œê·¸ë˜ë¨¸ìŠ¤, í•´ì‹œ, ì „í™”ë²ˆí˜¸ ëª©ë¡
 	public static void main(String[] args) {
 		boolean answer = true;
         String[] phone_book = {"119", "97674223", "1195524421"}; 

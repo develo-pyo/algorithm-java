@@ -1,7 +1,7 @@
-package algo_programmers;
+ï»¿package algo_programmers;
 
 public class SkillTest1_1 {
-	//ÇÁ·Î±×·¡¸Ó½º ½ºÅ³Å×½ºÆ®1
+	//í”„ë¡œê·¸ëž˜ë¨¸ìŠ¤ ìŠ¤í‚¬í…ŒìŠ¤íŠ¸1
 	public static void main(String[] args) {
 		String[] strings = {"aaa", "bbb", "bcb", "cbb"};
 		

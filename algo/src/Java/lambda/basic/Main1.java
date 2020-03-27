@@ -1,35 +1,35 @@
-package Java.lambda.basic;
+ï»¿package Java.lambda.basic;
 
 public class Main1 {
-	
-	//java lambda
-	//jdk 1.8~
-	//ÇÔ¼öÇü ÇÁ·Î±×·¡¹Ö
-	//ÀÎÅÍÆäÀÌ½º + ÀÍ¸í°´Ã¼ + ¶÷´Ù½Ä
-	//1È¸¿ë ÀÍ¸í ¸Ş¼Òµå°¡ ÇÊ¿äÇÒ ¶§ ¶÷´Ù¸¦ »ç¿ë 
-	
-	//Âü°í https://futurecreator.github.io/2018/07/20/java-lambda-type-inference-functional-interface/
-	public static void main(String[] args) {
+   
+   //java lambda
+   //jdk 1.8~
+   //í•¨ìˆ˜í˜• í”„ë¡œê·¸ë˜ë°
+   //ì¸í„°í˜ì´ìŠ¤ + ìµëª…ê°ì²´ + ëŒë‹¤ì‹
+   //1íšŒìš© ìµëª… ë©”ì†Œë“œê°€ í•„ìš”í•  ë•Œ ëŒë‹¤ë¥¼ ì‚¬ìš© 
+   
+   //ì°¸ê³  https://futurecreator.github.io/2018/07/20/java-lambda-type-inference-functional-interface/
+   public static void main(String[] args) {
 
-		//±âÁ¸ ÀÍ¸í°´Ã¼¸¦ »ç¿ëÇÑ ±¸Çö ¹æ½Ä
-		Interface i = new Interface() {
-			@Override
-			public void sayHello() {
-				System.out.println("HELLO! in anonymous class");
-			}
-		};
-		i.sayHello();
-		
-		//lamda ´Â Functional Interface ¿¡¸¸ »ç¿ëÀÌ °¡´ÉÇÏ´Ù
-		Interface lamda = () -> {
-			System.out.println("HELLO! in anonymous method(lambda)");
-		};
-		lamda.sayHello();
-	}
-	
-	//@FunctionalInterface ´Â abstract method °¡ ¿ÀÁ÷ 1°³¿©¾ß ÇÑ´Ù.
-	@FunctionalInterface
-	interface Interface {
-		void sayHello();
-	}
+      //ê¸°ì¡´ ìµëª…ê°ì²´ë¥¼ ì‚¬ìš©í•œ êµ¬í˜„ ë°©ì‹
+      Interface i = new Interface() {
+         @Override
+         public void sayHello() {
+            System.out.println("HELLO! in anonymous class");
+         }
+      };
+      i.sayHello();
+      
+      //lamda ëŠ” Functional Interface ì—ë§Œ ì‚¬ìš©ì´ ê°€ëŠ¥í•˜ë‹¤
+      Interface lamda = () -> {
+         System.out.println("HELLO! in anonymous method(lambda)");
+      };
+      lamda.sayHello();
+   }
+   
+   //@FunctionalInterface ëŠ” abstract method ê°€ ì˜¤ì§ 1ê°œì—¬ì•¼ í•œë‹¤.
+   @FunctionalInterface
+   interface Interface {
+      void sayHello();
+   }
 }

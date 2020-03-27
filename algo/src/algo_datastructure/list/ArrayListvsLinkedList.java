@@ -1,4 +1,4 @@
-package algo_datastructure.list;
+ï»¿package algo_datastructure.list;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -12,8 +12,8 @@ public class ArrayListvsLinkedList {
 	
 	public static void main(String[] args) {
 		
-		//add remove ¼º´ÉÀº linkedList °¡ ´õ ÁÁÀ½
-		//get ¼º´ÉÀº arrayList °¡ ´õ ÁÁÀ½
+		//add remove ì„±ëŠ¥ì€ linkedList ê°€ ë” ì¢‹ìŒ
+		//get ì„±ëŠ¥ì€ arrayList ê°€ ë” ì¢‹ìŒ
 		List<Integer> ArrayList = new ArrayList<>();
 		List<Integer> linkedList = new LinkedList<>();
 		

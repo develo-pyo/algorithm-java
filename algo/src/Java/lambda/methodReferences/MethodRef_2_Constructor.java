@@ -1,4 +1,4 @@
-package Java.lambda.methodReferences;
+ï»¿package Java.lambda.methodReferences;
 
 import java.util.List;
 import java.util.function.BiFunction;
@@ -7,19 +7,19 @@ import java.util.function.Function;
 public class MethodRef_2_Constructor {
 	/**
 	 * 2
-	 * ¶÷´ÙÀÇ ¸Ş¼Òµå ÂüÁ¶
-	 * ¸Ş¼Òµå ÂüÁ¶´Â ¸Å°³º¯¼öÀÇ Á¤º¸ ¹× ¸®ÅÏ Å¸ÀÔÀ» ¾Ë¾Æ³»¾î ¶÷´Ù½Ä¿¡ ºÒÇÊ¿äÇÑ ¸Å°³ º¯¼ö¸¦ Á¦°ÅÇÏ±â À§ÇÔ
+	 * ëŒë‹¤ì˜ ë©”ì†Œë“œ ì°¸ì¡°
+	 * ë©”ì†Œë“œ ì°¸ì¡°ëŠ” ë§¤ê°œë³€ìˆ˜ì˜ ì •ë³´ ë° ë¦¬í„´ íƒ€ì…ì„ ì•Œì•„ë‚´ì–´ ëŒë‹¤ì‹ì— ë¶ˆí•„ìš”í•œ ë§¤ê°œ ë³€ìˆ˜ë¥¼ ì œê±°í•˜ê¸° ìœ„í•¨
 	 * https://futurecreator.github.io/2018/08/02/java-lambda-method-references/
 	 */
 	public static void main(String[] args){
 		
-		/** 2. »ı¼ºÀÚ ÂüÁ¶ */
-//		String::new ´Â
-//		() -> new String() °ú °°À½
+		/** 2. ìƒì„±ì ì°¸ì¡° */
+//		String::new ëŠ”
+//		() -> new String() ê³¼ ê°™ìŒ
 		
 //		Sample s = new MethodRef_2_Constructor().new Sample();
 //		List<Object> list = new ArrayList<Object>();
-//		s.initialize(list, String::new);	//»ı¼ºÀÚ ¸Ş¼Òµå¸¦ ÂüÁ¶.. new String()
+//		s.initialize(list, String::new);	//ìƒì„±ì ë©”ì†Œë“œë¥¼ ì°¸ì¡°.. new String()
 //		
 //		
 //		Factory<Person> factory = () -> new Person("pyo");

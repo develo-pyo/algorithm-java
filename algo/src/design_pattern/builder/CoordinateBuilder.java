@@ -1,11 +1,11 @@
-package design_pattern.builder;
+ï»¿package design_pattern.builder;
 
 public class CoordinateBuilder {
-	//ºô´õ ÆĞÅÏ
-	//Builder pattern : ÅÚ·¹½ºÄÚÇÎ ÆĞÅÏ + ÀÚ¹Ùºó ÆĞÅÏ
-	//°´Ã¼´Â ÇÊ¼ö ¸Å°³º¯¼ö¸¦ °®´Â »ı¼ºÀÚ·Î ¾ò°í,
-	//³ª¸ÓÁö ¼±ÅÃÇÊµå´Â setter ¸Ş¼Òµå »ç¿ë
-	//¸¶Áö¸· build ¸Ş¼Òµå È£ÃâÇÏ¿© ºÒº¯ °´Ã¼ »ı¼º
+	//ë¹Œë” íŒ¨í„´
+	//Builder pattern : í…”ë ˆìŠ¤ì½”í•‘ íŒ¨í„´ + ìë°”ë¹ˆ íŒ¨í„´
+	//ê°ì²´ëŠ” í•„ìˆ˜ ë§¤ê°œë³€ìˆ˜ë¥¼ ê°–ëŠ” ìƒì„±ìë¡œ ì–»ê³ ,
+	//ë‚˜ë¨¸ì§€ ì„ íƒí•„ë“œëŠ” setter ë©”ì†Œë“œ ì‚¬ìš©
+	//ë§ˆì§€ë§‰ build ë©”ì†Œë“œ í˜¸ì¶œí•˜ì—¬ ë¶ˆë³€ ê°ì²´ ìƒì„±
 	private final int x;
 	private final int y;
 	private final int w;

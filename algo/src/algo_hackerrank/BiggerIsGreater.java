@@ -1,4 +1,4 @@
-package algo_hackerrank;
+ï»¿package algo_hackerrank;
 
 import java.math.BigInteger;
 import java.util.Arrays;
@@ -7,7 +7,7 @@ public class BiggerIsGreater {
 	// Complete the happyLadybugs function below.
 	public static void main(String[] args) {
 		
-		  String[] words = { "°¡³ª´Ù", "¶ó¸¶¹Ù", "¶ó°¡´Ù", "¶ó´Ù³ª", "¾ÆÀÚÂ÷" };
+		  String[] words = { "ê°€ë‚˜ë‹¤", "ë¼ë§ˆë°”", "ë¼ê°€ë‹¤", "ë¼ë‹¤ë‚˜", "ì•„ìì°¨" };
 	      int n = words.length;
 
 	      for(int i = 0; i < n-1; ++i) {

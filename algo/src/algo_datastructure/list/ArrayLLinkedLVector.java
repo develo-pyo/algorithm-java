@@ -1,4 +1,4 @@
-package algo_datastructure.list;
+ï»¿package algo_datastructure.list;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -12,7 +12,7 @@ public class ArrayLLinkedLVector {
 		List<Integer> al = new ArrayList<>();
 		al.add(1);
 		al.add(2);
-		al.add(2);	//Áßº¹Çã¿ë, ¼ø¼­º¸Àå
+		al.add(2);	//ì¤‘ë³µí—ˆìš©, ìˆœì„œë³´ìž¥
 		//al.remove(0);
 		
 		System.out.print("ArrayList: ");
@@ -24,7 +24,7 @@ public class ArrayLLinkedLVector {
 		List<Integer> ll = new LinkedList<>();
 		ll.add(1);
 		ll.add(2);
-		ll.add(2);	//Áßº¹Çã¿ë, ¼ø¼­º¸Àå
+		ll.add(2);	//ì¤‘ë³µí—ˆìš©, ìˆœì„œë³´ìž¥
 		//ll.remove(0);
 		
 		System.out.print("LinkedList: ");
@@ -36,7 +36,7 @@ public class ArrayLLinkedLVector {
 		List<Integer> v = new Vector<>();
 		v.add(1);
 		v.add(2);
-		v.add(2);	//Áßº¹Çã¿ë, ¼ø¼­º¸Àå
+		v.add(2);	//ì¤‘ë³µí—ˆìš©, ìˆœì„œë³´ìž¥
 		//v.remove(0);
 		
 		System.out.print("Vector: ");

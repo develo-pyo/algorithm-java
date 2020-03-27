@@ -1,8 +1,8 @@
-package design_pattern.factory.factory2;
+ï»¿package design_pattern.factory.factory2;
 
 public class LGComputer implements Computer {
 	public LGComputer() {
-		System.out.println("LG ÄÄÇ»ÅÍ »ı¼º");
+		System.out.println("LG ì»´í“¨í„° ìƒì„±");
 	}
 	
 	public LGKeyboard createKeyboard() {

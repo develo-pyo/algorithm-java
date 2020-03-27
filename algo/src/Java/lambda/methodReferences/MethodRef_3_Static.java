@@ -1,4 +1,4 @@
-package Java.lambda.methodReferences;
+ï»¿package Java.lambda.methodReferences;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -8,18 +8,18 @@ import java.util.List;
 public class MethodRef_3_Static {
 	/**
 	 * 2
-	 * ¶÷´ÙÀÇ ¸Ş¼Òµå ÂüÁ¶
-	 * ¸Ş¼Òµå ÂüÁ¶´Â ¸Å°³º¯¼öÀÇ Á¤º¸ ¹× ¸®ÅÏ Å¸ÀÔÀ» ¾Ë¾Æ³»¾î ¶÷´Ù½Ä¿¡ ºÒÇÊ¿äÇÑ ¸Å°³ º¯¼ö¸¦ Á¦°ÅÇÏ±â À§ÇÔ
+	 * ëŒë‹¤ì˜ ë©”ì†Œë“œ ì°¸ì¡°
+	 * ë©”ì†Œë“œ ì°¸ì¡°ëŠ” ë§¤ê°œë³€ìˆ˜ì˜ ì •ë³´ ë° ë¦¬í„´ íƒ€ì…ì„ ì•Œì•„ë‚´ì–´ ëŒë‹¤ì‹ì— ë¶ˆí•„ìš”í•œ ë§¤ê°œ ë³€ìˆ˜ë¥¼ ì œê±°í•˜ê¸° ìœ„í•¨
 	 * https://futurecreator.github.io/2018/08/02/java-lambda-method-references/
 	 */
 	public static void main(String[] args){
 		
-		/** 3. ½ºÅÂÆ½ ¸Ş¼Òµå ÂüÁ¶ */
-//		Æ¯Á¤ ½ºÅÂÆ½ ¸Ş¼Òµå Á÷Á¢ ÀáÁ¶ °¡´É
+		/** 3. ìŠ¤íƒœí‹± ë©”ì†Œë“œ ì°¸ì¡° */
+//		íŠ¹ì • ìŠ¤íƒœí‹± ë©”ì†Œë“œ ì§ì ‘ ì ì¡° ê°€ëŠ¥
 		Integer[] arr = {1, 5, 2, 4, 3};
 		
 		
-		//±âÁ¸ jdk 1.7 ÀÌÇÏ
+		//ê¸°ì¡´ jdk 1.7 ì´í•˜
 		Arrays.sort(arr, new Comparator<Integer>() {
 			@Override
 			public int compare(Integer o1, Integer o2) {
@@ -27,7 +27,7 @@ public class MethodRef_3_Static {
 			}
 		});
 		
-		//¶÷´Ù½Ä »ç¿ë jdk 1.8 ÀÌ»ó
+		//ëŒë‹¤ì‹ ì‚¬ìš© jdk 1.8 ì´ìƒ
 		Arrays.sort(arr, (x, y) -> x-y);
 		
 		for(int i : arr) {

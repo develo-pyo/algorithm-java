@@ -1,4 +1,4 @@
-package algo_hackerrank;
+ï»¿package algo_hackerrank;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -8,12 +8,12 @@ public class Pairs {
 
 //	public static void main(String[] args) {
 //		
-//		//ÀÔ·Â ¹è¿­°ª
+//		//ì…ë ¥ ë°°ì—´ê°’
 //		Integer[] arr = {1, 5, 3, 4, 2};
-//		//¿øÇÏ´Â Â÷¾×
+//		//ì›í•˜ëŠ” ì°¨ì•¡
 //		int gap = 2;
 //		
-//		//³»¸²Â÷¼ø Á¤·Ä
+//		//ë‚´ë¦¼ì°¨ìˆœ ì •ë ¬
 //		Arrays.sort(arr, new Comparator<Integer>() {
 //			@Override
 //			public int compare(Integer o1, Integer o2) {
@@ -40,10 +40,10 @@ public class Pairs {
 	
 	public static void main(String[] args) {
 		
-		//ÀÔ·Â ¹è¿­°ª
+		//ì…ë ¥ ë°°ì—´ê°’
 		Integer[] arr = {1, 5, 3, 4, 2};
 		
-		//¿øÇÏ´Â Â÷¾×
+		//ì›í•˜ëŠ” ì°¨ì•¡
 		int gap = 2;
 			
 		HashSet<Integer> set = new HashSet<>();

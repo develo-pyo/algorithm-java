@@ -1,4 +1,4 @@
-package algo.dfs;
+ï»¿package algo.dfs;
 
 public class Client {
    //https://gmlwjd9405.github.io/2018/08/14/algorithm-dfs.html
@@ -16,8 +16,8 @@ public class Client {
 //                       3                                     
       
       
-      g.DFS(2); /* ÁÖ¾îÁø ³ëµå¸¦ ½ÃÀÛ ³ëµå·Î DFS Å½»ö */
-//      g.DFS(); /* ºñ¿¬°áÇü ±×·¡ÇÁÀÇ °æ¿ì */
+      g.DFS(2); /* ì£¼ì–´ì§„ ë…¸ë“œë¥¼ ì‹œì‘ ë…¸ë“œë¡œ DFS íƒìƒ‰ */
+//      g.DFS(); /* ë¹„ì—°ê²°í˜• ê·¸ë˜í”„ì˜ ê²½ìš° */
    }
 
 }

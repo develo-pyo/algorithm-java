@@ -1,4 +1,4 @@
-package algo_hackerrank;
+ï»¿package algo_hackerrank;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,18 +7,18 @@ public class Strange_Counter {
 
 	public static void main(String[] args) {
 
-		//a : ÃÊ±â ¹è¿­
-        //k : ÀÌµ¿ È½¼ö
-        //q : Ãâ·ÂÇÒ ÃÖÁ¾ ¹è¿­ÀÇ ÀÎµ¦½º
+		//a : ì´ˆê¸° ë°°ì—´
+        //k : ì´ë™ íšŸìˆ˜
+        //q : ì¶œë ¥í•  ìµœì¢… ë°°ì—´ì˜ ì¸ë±ìŠ¤
 		int[] a = {1, 2, 3};
 		int k = 2;
 		int[] q = {0, 1, 2};
 		
-		//°á°ú
+		//ê²°ê³¼
 		int[] result = new int[q.length];
 		
 
-		//ºĞ¼®
+		//ë¶„ì„
         //         1 2 3 4
 		//		 4 1 2 3
 		//	   3 4 1 2         

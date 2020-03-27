@@ -1,41 +1,41 @@
-package Java.lambda.methodReferences;
+ï»¿package Java.lambda.methodReferences;
 
 public class MethodRef_1_Basic {
 	/**
 	 * 2
-	 * ¶÷´ÙÀÇ ¸Ş¼Òµå ÂüÁ¶
-	 * ¸Ş¼Òµå ÂüÁ¶´Â ¸Å°³º¯¼öÀÇ Á¤º¸ ¹× ¸®ÅÏ Å¸ÀÔÀ» ¾Ë¾Æ³»¾î ¶÷´Ù½Ä¿¡ ºÒÇÊ¿äÇÑ ¸Å°³ º¯¼ö¸¦ Á¦°ÅÇÏ±â À§ÇÔ
+	 * ëŒë‹¤ì˜ ë©”ì†Œë“œ ì°¸ì¡°
+	 * ë©”ì†Œë“œ ì°¸ì¡°ëŠ” ë§¤ê°œë³€ìˆ˜ì˜ ì •ë³´ ë° ë¦¬í„´ íƒ€ì…ì„ ì•Œì•„ë‚´ì–´ ëŒë‹¤ì‹ì— ë¶ˆí•„ìš”í•œ ë§¤ê°œ ë³€ìˆ˜ë¥¼ ì œê±°í•˜ê¸° ìœ„í•¨
 	 * https://futurecreator.github.io/2018/08/02/java-lambda-method-references/
 	 */
 	public static void main(String[] args){
 		
-		/** 1.±âº» »ç¿ë¹ı */
-		//String.valueOf() ¸¦ ±×´ë·Î »ç¿ëÇÏ¿© ¸®ÅÏÇÏ´Â ¶÷´Ù
+		/** 1.ê¸°ë³¸ ì‚¬ìš©ë²• */
+		//String.valueOf() ë¥¼ ê·¸ëŒ€ë¡œ ì‚¬ìš©í•˜ì—¬ ë¦¬í„´í•˜ëŠ” ëŒë‹¤
 		FuncI funcI = (Object obj) -> String.valueOf(obj);
 		System.out.println(funcI.anony("HELLO"));
 		
-		//À§ °æ¿ì ¾Æ·¡¿Í °°ÀÌ ¸Ş¼Òµå ÂüÁ¶°¡ °¡´É
+		//ìœ„ ê²½ìš° ì•„ë˜ì™€ ê°™ì´ ë©”ì†Œë“œ ì°¸ì¡°ê°€ ê°€ëŠ¥
 		FuncI funcI_ref_method = String::valueOf;
 		System.out.println(funcI_ref_method.anony(100));
 		
-		//Àı´ë°ªÀ» ±¸ÇØÁÖ´Â Math.abs ¸¦ ÂüÁ¶ 
+		//ì ˆëŒ€ê°’ì„ êµ¬í•´ì£¼ëŠ” Math.abs ë¥¼ ì°¸ì¡° 
 		System.out.println("abs ref : "+convert(-1, Math::abs));
 		
 		
 		
-		//static ÀÎ °æ¿ì, Å¬·¡½º::¸Ş¼Òµå;
-		//ÀÎ½ºÅÏ½º ¸Ş¼ÒµåÀÎ °æ¿ì, ÂüÁ¶º¯¼ö::¸Ş¼Òµå;
-		FuncI2 funcI2 = Math::max;	//FuncI2 ÇÔ¼öÇü ÀÎÅÍÆäÀÌ½º¸¦ Math.max ÂüÁ¶½ÃÅ°µµ·Ï
+		//static ì¸ ê²½ìš°, í´ë˜ìŠ¤::ë©”ì†Œë“œ;
+		//ì¸ìŠ¤í„´ìŠ¤ ë©”ì†Œë“œì¸ ê²½ìš°, ì°¸ì¡°ë³€ìˆ˜::ë©”ì†Œë“œ;
+		FuncI2 funcI2 = Math::max;	//FuncI2 í•¨ìˆ˜í˜• ì¸í„°í˜ì´ìŠ¤ë¥¼ Math.max ì°¸ì¡°ì‹œí‚¤ë„ë¡
 		System.out.println(funcI2.anony(1, 2));
 		
 		FuncI3 funcI3 = MethodRef_1_Basic::sample;
 		System.out.println(funcI3.anony('a'));
 		
 		
-		/** 2. »ı¼ºÀÚ ÂüÁ¶ */
-		/** 3. ½ºÅÂÆ½ ¸Ş¼Òµå ÂüÁ¶ */
-		/** 4. ÀÎ½ºÅÏ½º ¸Ş¼Òµå ÂüÁ¶ */
-		/** 5. ÀÎ½ºÅÏ½º ¸Ş¼Òµå ÂüÁ¶ */
+		/** 2. ìƒì„±ì ì°¸ì¡° */
+		/** 3. ìŠ¤íƒœí‹± ë©”ì†Œë“œ ì°¸ì¡° */
+		/** 4. ì¸ìŠ¤í„´ìŠ¤ ë©”ì†Œë“œ ì°¸ì¡° */
+		/** 5. ì¸ìŠ¤í„´ìŠ¤ ë©”ì†Œë“œ ì°¸ì¡° */
 	}
 
 	@FunctionalInterface

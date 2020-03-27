@@ -1,56 +1,56 @@
-package algo.dfs;
+ï»¿package algo.dfs;
 
 import java.io.*;
 import java.util.*;
 
-/* ÀÎÁ¢ ¸®½ºÆ®¸¦ ÀÌ¿ëÇÑ ¹æÇâ¼º ÀÖ´Â ±×·¡ÇÁ Å¬·¡½º */
+/* ì¸ì ‘ ë¦¬ìŠ¤íŠ¸ë¥¼ ì´ìš©í•œ ë°©í–¥ì„± ìˆëŠ” ê·¸ë˜í”„ í´ë˜ìŠ¤ */
 //https://gmlwjd9405.github.io/2018/08/14/algorithm-dfs.html
 class Graph {
-  private int V;   // ³ëµåÀÇ °³¼ö
-  private LinkedList<Integer>[] adj; // ÀÎÁ¢ ¸®½ºÆ®
+  private int V;   // ë…¸ë“œì˜ ê°œìˆ˜
+  private LinkedList<Integer>[] adj; // ì¸ì ‘ ë¦¬ìŠ¤íŠ¸
   
-  /** »ı¼ºÀÚ */
+  /** ìƒì„±ì */
   Graph(int v) {
       V = v;
       adj = new LinkedList[v];
-      for (int i=0; i<v; ++i) // ÀÎÁ¢ ¸®½ºÆ® ÃÊ±âÈ­
+      for (int i=0; i<v; ++i) // ì¸ì ‘ ë¦¬ìŠ¤íŠ¸ ì´ˆê¸°í™”
           adj[i] = new LinkedList();
   }
 
-  /** ³ëµå¸¦ ¿¬°á v->w */
+  /** ë…¸ë“œë¥¼ ì—°ê²° v->w */
   void addEdge(int v, int w) { adj[v].add(w); }
 
-  /** DFS¿¡ ÀÇÇØ »ç¿ëµÇ´Â ÇÔ¼ö */
+  /** DFSì— ì˜í•´ ì‚¬ìš©ë˜ëŠ” í•¨ìˆ˜ */
   void DFSUtil(int v, boolean visited[]) {
-      // ÇöÀç ³ëµå¸¦ ¹æ¹®ÇÑ °ÍÀ¸·Î Ç¥½ÃÇÏ°í °ªÀ» Ãâ·Â
+      // í˜„ì¬ ë…¸ë“œë¥¼ ë°©ë¬¸í•œ ê²ƒìœ¼ë¡œ í‘œì‹œí•˜ê³  ê°’ì„ ì¶œë ¥
       visited[v] = true;
       System.out.print(v + " ");
 
-      // ¹æ¹®ÇÑ ³ëµå¿Í ÀÎÁ¢ÇÑ ¸ğµç ³ëµå¸¦ °¡Á®¿Â´Ù.
+      // ë°©ë¬¸í•œ ë…¸ë“œì™€ ì¸ì ‘í•œ ëª¨ë“  ë…¸ë“œë¥¼ ê°€ì ¸ì˜¨ë‹¤.
       Iterator<Integer> i = adj[v].listIterator();
       while (i.hasNext()) {
           int n = i.next();
-          // ¹æ¹®ÇÏÁö ¾ÊÀº ³ëµå¸é ÇØ´ç ³ëµå¸¦ ½ÃÀÛ ³ëµå·Î ´Ù½Ã DFSUtil È£Ãâ
+          // ë°©ë¬¸í•˜ì§€ ì•Šì€ ë…¸ë“œë©´ í•´ë‹¹ ë…¸ë“œë¥¼ ì‹œì‘ ë…¸ë“œë¡œ ë‹¤ì‹œ DFSUtil í˜¸ì¶œ
           if (!visited[n])
-              DFSUtil(n, visited); // ¼øÈ¯ È£Ãâ
+              DFSUtil(n, visited); // ìˆœí™˜ í˜¸ì¶œ
       }
   }
 
-  /** ÁÖ¾îÁø ³ëµå¸¦ ½ÃÀÛ ³ëµå·Î DFS Å½»ö */
+  /** ì£¼ì–´ì§„ ë…¸ë“œë¥¼ ì‹œì‘ ë…¸ë“œë¡œ DFS íƒìƒ‰ */
   void DFS(int v) {
-      // ³ëµåÀÇ ¹æ¹® ¿©ºÎ ÆÇ´Ü (ÃÊ±ê°ª: false)
+      // ë…¸ë“œì˜ ë°©ë¬¸ ì—¬ë¶€ íŒë‹¨ (ì´ˆê¹ƒê°’: false)
       boolean visited[] = new boolean[V];
 
-      // v¸¦ ½ÃÀÛ ³ëµå·Î DFSUtil ¼øÈ¯ È£Ãâ
+      // vë¥¼ ì‹œì‘ ë…¸ë“œë¡œ DFSUtil ìˆœí™˜ í˜¸ì¶œ
       DFSUtil(v, visited);
   }
 
-  /** DFS Å½»ö */
+  /** DFS íƒìƒ‰ */
   void DFS() {
-      // ³ëµåÀÇ ¹æ¹® ¿©ºÎ ÆÇ´Ü (ÃÊ±ê°ª: false)
+      // ë…¸ë“œì˜ ë°©ë¬¸ ì—¬ë¶€ íŒë‹¨ (ì´ˆê¹ƒê°’: false)
       boolean visited[] = new boolean[V];
 
-      // ºñ¿¬°áÇü ±×·¡ÇÁÀÇ °æ¿ì, ¸ğµç Á¤Á¡À» ÇÏ³ª¾¿ ¹æ¹®
+      // ë¹„ì—°ê²°í˜• ê·¸ë˜í”„ì˜ ê²½ìš°, ëª¨ë“  ì •ì ì„ í•˜ë‚˜ì”© ë°©ë¬¸
       for (int i=0; i<V; ++i) {
           if (visited[i] == false)
               DFSUtil(i, visited);

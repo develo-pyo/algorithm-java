@@ -1,15 +1,15 @@
-package design_pattern.strategy;
+ï»¿package design_pattern.strategy;
 
 public class Dog implements Shout{
 
 	@Override
 	public void yell() {
-		System.out.println("¿Ğ");
+		System.out.println("ë©");
 	}
 
 	@Override
 	public void scream() {
-		System.out.println("¿Ğ");
+		System.out.println("ë©ë©");
 	}
 	
 }

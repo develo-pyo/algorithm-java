@@ -1,4 +1,4 @@
-package algo_datastructure.map;
+ï»¿package algo_datastructure.map;
 
 import java.util.Hashtable;
 import java.util.Map;
@@ -7,8 +7,8 @@ public class HashTableSample {
 
 	public static void main(String[] args) {
 		
-		//¼ø¼­¸¦ º¸ÀåÇÏÁö ¾ÊÀ½
-		//key, value ¿¡ Null Çã¿ë
+		//ìˆœì„œë¥¼ ë³´ì¥í•˜ì§€ ì•ŠìŒ
+		//key, value ì— Null í—ˆìš©
 		//Thread safe
 		
 		Map<Integer, Integer> map = new Hashtable<>();

@@ -1,4 +1,4 @@
-package algo_hackerrank;
+ï»¿package algo_hackerrank;
 
 public class CamelCase {
 
@@ -23,14 +23,14 @@ public class CamelCase {
         System.out.println(i);
         
         
-        //int to char (ascii ³Ñ¹ö·Î ¹®ÀÚ ¾Ë¾Æ³»±â)
+        //int to char (ascii ë„˜ë²„ë¡œ ë¬¸ì ì•Œì•„ë‚´ê¸°)
         int t = 47;
         char tmp = (char)t;
         System.out.println(tmp);
         
         System.out.println(t - '0');
         
-        //¹®ÀÚÀÇ ascii ³Ñ¹ö ¾Ë¾Æ³»±â
+        //ë¬¸ìì˜ ascii ë„˜ë²„ ì•Œì•„ë‚´ê¸°
         String s = "/";
         int k = s.charAt(0);
         System.out.println(k);

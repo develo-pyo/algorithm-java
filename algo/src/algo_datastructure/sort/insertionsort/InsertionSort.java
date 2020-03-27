@@ -1,8 +1,8 @@
-package algo_datastructure.sort.insertionsort;
+ï»¿package algo_datastructure.sort.insertionsort;
 
 public class InsertionSort {
 	
-	//½Ã°£º¹Àâµµ 
+	//ì‹œê°„ë³µì¡ë„ 
 	// BEST  n
 	// AVG   n^2
 	// WORST n^2

@@ -1,9 +1,9 @@
-package algo_hackerrank;
+ï»¿package algo_hackerrank;
 
 public class DenseRanking {
 	public static void main(String[] args) {
 		
-		//ºóÆ´¾ø´Â »ª»ªÇÑ ¼øÀ§ ¸Å±â±â
+		//ë¹ˆí‹ˆì—†ëŠ” ë¹½ë¹½í•œ ìˆœìœ„ ë§¤ê¸°ê¸°
 		int[] scores = {80, 90, 90, 100};
 		
 		int[] ranks = new int[scores.length];

@@ -1,17 +1,17 @@
-package algo_programmers;
+ï»¿package algo_programmers;
 
 public class SkillTest2_6 {
-//	ÇÇº¸³ªÄ¡ ¼ö´Â F(0) = 0, F(1) = 1ÀÏ ¶§, 1 ÀÌ»óÀÇ n¿¡ ´ëÇÏ¿© F(n) = F(n-1) + F(n-2) °¡ Àû¿ëµÇ´Â ¼ö ÀÔ´Ï´Ù.
+//	í”¼ë³´ë‚˜ì¹˜ ìˆ˜ëŠ” F(0) = 0, F(1) = 1ì¼ ë•Œ, 1 ì´ìƒì˜ nì— ëŒ€í•˜ì—¬ F(n) = F(n-1) + F(n-2) ê°€ ì ìš©ë˜ëŠ” ìˆ˜ ìž…ë‹ˆë‹¤.
 //
-//	¿¹¸¦µé¾î
+//	ì˜ˆë¥¼ë“¤ì–´
 //
 //	F(2) = F(0) + F(1) = 0 + 1 = 1
 //	F(3) = F(1) + F(2) = 1 + 1 = 2
 //	F(4) = F(2) + F(3) = 1 + 2 = 3
 //	F(5) = F(3) + F(4) = 2 + 3 = 5
-//	¿Í °°ÀÌ ÀÌ¾îÁý´Ï´Ù.
+//	ì™€ ê°™ì´ ì´ì–´ì§‘ë‹ˆë‹¤.
 //
-//	2 ÀÌ»óÀÇ nÀÌ ÀÔ·ÂµÇ¾úÀ» ¶§, n¹øÂ° ÇÇº¸³ªÄ¡ ¼ö¸¦ 1234567À¸·Î ³ª´« ³ª¸ÓÁö¸¦ ¸®ÅÏÇÏ´Â ÇÔ¼ö, solutionÀ» ¿Ï¼ºÇØ ÁÖ¼¼¿ä.
+//	2 ì´ìƒì˜ nì´ ìž…ë ¥ë˜ì—ˆì„ ë•Œ, në²ˆì§¸ í”¼ë³´ë‚˜ì¹˜ ìˆ˜ë¥¼ 1234567ìœ¼ë¡œ ë‚˜ëˆˆ ë‚˜ë¨¸ì§€ë¥¼ ë¦¬í„´í•˜ëŠ” í•¨ìˆ˜, solutionì„ ì™„ì„±í•´ ì£¼ì„¸ìš”.
 	public static void main(String[] args) {
 		
 		int rs = solution(100000);

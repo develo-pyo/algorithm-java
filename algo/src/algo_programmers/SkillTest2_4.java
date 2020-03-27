@@ -1,7 +1,7 @@
-package algo_programmers;
+ï»¿package algo_programmers;
 
 public class SkillTest2_4 {
-//	Á¶ÀÌ½ºÆ½À¸·Î ¾ËÆÄºª ÀÌ¸§À» ¿Ï¼ºÇÏ¼¼¿ä. ¸Ç Ã³À½¿£ A·Î¸¸ ÀÌ·ç¾îÁ® ÀÖ½À´Ï´Ù.
+//	ì¡°ì´ìŠ¤í‹±ìœ¼ë¡œ ì•ŒíŒŒë²³ ì´ë¦„ì„ ì™„ì„±í•˜ì„¸ìš”. ë§¨ ì²˜ìŒì—” Aë¡œë§Œ ì´ë£¨ì–´ì ¸ ìˆìŠµë‹ˆë‹¤.
 	public static void main(String[] args) {
 		// A B C D E 
 		// F G H I J 

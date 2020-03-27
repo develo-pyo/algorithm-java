@@ -1,15 +1,15 @@
-package design_pattern.strategy;
+ï»¿package design_pattern.strategy;
 
 public class Human implements Shout{
 	
 	@Override
 	public void yell() {
-		System.out.println("À¸¾Ç");
+		System.out.println("ìœ¼ì•…");
 	}
 
 	@Override
 	public void scream() {
-		System.out.println("²¥");
+		System.out.println("êº„");
 	}
 	
 }

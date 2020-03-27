@@ -1,4 +1,4 @@
-package design_pattern.proxy3_aop;
+﻿package design_pattern.proxy3_aop;
 
 public class Proxy implements Subject {
 	

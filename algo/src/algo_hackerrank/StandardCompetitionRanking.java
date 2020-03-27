@@ -1,9 +1,9 @@
-package algo_hackerrank;
+ï»¿package algo_hackerrank;
 
 public class StandardCompetitionRanking {
 	public static void main(String[] args) {
 		
-		//±âÁØ Á¡¼ö°¡ ÀÖ°í, ³» Á¡¼ö°¡ ÀÖÀ» ¶§ ³» Á¡¼ö ¼øÀ§ ¸Å±â±â
+		//ê¸°ì¤€ ì ìˆ˜ê°€ ìˆê³ , ë‚´ ì ìˆ˜ê°€ ìˆì„ ë•Œ ë‚´ ì ìˆ˜ ìˆœìœ„ ë§¤ê¸°ê¸°
 //		int[] scores = {30, 50, 50, 50, 70, 90, 90, 100};
 //		int[] mine = {50, 80, 90};
 //		
@@ -23,7 +23,7 @@ public class StandardCompetitionRanking {
 //		}
 
 		
-		//¹è¿­ ÇÏ³ª¿¡ Á¡¼öµéÀÌ ÀÖÀ» ¶§ Á¡¼öµé ¼øÀ§ ¸Å±â±â
+		//ë°°ì—´ í•˜ë‚˜ì— ì ìˆ˜ë“¤ì´ ìˆì„ ë•Œ ì ìˆ˜ë“¤ ìˆœìœ„ ë§¤ê¸°ê¸°
 		int[] scores = {80, 90, 90, 100}; 
 		int[] ranks = new int[scores.length];
 		ranks[0] = 1;

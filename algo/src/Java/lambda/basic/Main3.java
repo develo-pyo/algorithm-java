@@ -1,14 +1,14 @@
-package Java.lambda.basic;
+ï»¿package Java.lambda.basic;
 
 public class Main3 {
 	
 	//java lamda
 	//jdk 1.8~
-	//ÇÔ¼öÇü ÇÁ·Î±×·¡¹Ö
-	//ÀÎÅÍÆäÀÌ½º + ÀÍ¸í°´Ã¼ + ¶÷´Ù½Ä
-	//1È¸¿ë ÀÍ¸í ¸Ş¼Òµå°¡ ÇÊ¿äÇÒ ¶§ ¶÷´Ù¸¦ »ç¿ë 
+	//í•¨ìˆ˜í˜• í”„ë¡œê·¸ë˜ë°
+	//ì¸í„°í˜ì´ìŠ¤ + ìµëª…ê°ì²´ + ëŒë‹¤ì‹
+	//1íšŒìš© ìµëª… ë©”ì†Œë“œê°€ í•„ìš”í•  ë•Œ ëŒë‹¤ë¥¼ ì‚¬ìš© 
 	
-	//Âü°í https://futurecreator.github.io/2018/07/20/java-lambda-type-inference-functional-interface/
+	//ì°¸ê³  https://futurecreator.github.io/2018/07/20/java-lambda-type-inference-functional-interface/
 	public static void main(String[] args) {
 		
 		Calculation add = (x, y) -> {
@@ -25,7 +25,7 @@ public class Main3 {
 		return operation.apply(x, y);
 	}
 	
-	//@FunctionalInterface ´Â abstract method °¡ ¿ÀÁ÷ 1°³¿©¾ß ÇÑ´Ù.
+	//@FunctionalInterface ëŠ” abstract method ê°€ ì˜¤ì§ 1ê°œì—¬ì•¼ í•œë‹¤.
 	@FunctionalInterface
 	interface Calculation {
 		Integer apply(Integer x, Integer y);

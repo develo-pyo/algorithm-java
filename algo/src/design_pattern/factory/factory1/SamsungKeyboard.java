@@ -1,7 +1,7 @@
-package design_pattern.factory.factory1;
+ï»¿package design_pattern.factory.factory1;
 
 public class SamsungKeyboard implements Keyboard {
 	public SamsungKeyboard() {
-		System.out.println("SAMSUNG Å°º¸µå »ı¼º");
+		System.out.println("SAMSUNG í‚¤ë³´ë“œ ìƒì„±");
 	}
 }

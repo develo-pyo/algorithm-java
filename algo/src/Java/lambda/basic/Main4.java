@@ -1,14 +1,14 @@
-package Java.lambda.basic;
+ï»¿package Java.lambda.basic;
 
 public class Main4 {
 	
 	//java lamda
 	//jdk 1.8~
-	//ÇÔ¼öÇü ÇÁ·Î±×·¡¹Ö
-	//ÀÎÅÍÆäÀÌ½º + ÀÍ¸í°´Ã¼ + ¶÷´Ù½Ä
-	//1È¸¿ë ÀÍ¸í ¸Ş¼Òµå°¡ ÇÊ¿äÇÒ ¶§ ¶÷´Ù¸¦ »ç¿ë 
+	//í•¨ìˆ˜í˜• í”„ë¡œê·¸ë˜ë°
+	//ì¸í„°í˜ì´ìŠ¤ + ìµëª…ê°ì²´ + ëŒë‹¤ì‹
+	//1íšŒìš© ìµëª… ë©”ì†Œë“œê°€ í•„ìš”í•  ë•Œ ëŒë‹¤ë¥¼ ì‚¬ìš© 
 	
-	//Âü°í https://futurecreator.github.io/2018/07/20/java-lambda-type-inference-functional-interface/
+	//ì°¸ê³  https://futurecreator.github.io/2018/07/20/java-lambda-type-inference-functional-interface/
 	public static void main(String[] args) {
 		
 		Calculation add = (x, y) -> {
@@ -29,27 +29,27 @@ public class Main4 {
 		return operation.apply(x, y);
 	}
 	
-	//@FunctionalInterface ´Â abstract method °¡ ¿ÀÁ÷ 1°³¿©¾ß ÇÑ´Ù.
-	//ÀÎÅÍÆäÀÌ½º¿¡ default ¸Ş¼Òµå°¡ Ãß°¡µÇ¸é¼­ javaµµ ´ÙÁß»ó¼ÓÀÌ °¡´ÉÇØÁø ¼ÀÀÌ´Ù
-	//Ãß»óÅ¬·¡½º¿Í ´Ù¸¥Á¡ : ÀÎ½ºÅÏ½º º¯¼ö´Â °¡Áú ¼ö ¾ø°í, ´ÙÁß»ó¼Ó(extends)ÀÌ ¾Æ´Ñ ´ÙÁß±¸Çö(implements)
+	//@FunctionalInterface ëŠ” abstract method ê°€ ì˜¤ì§ 1ê°œì—¬ì•¼ í•œë‹¤.
+	//ì¸í„°í˜ì´ìŠ¤ì— default ë©”ì†Œë“œê°€ ì¶”ê°€ë˜ë©´ì„œ javaë„ ë‹¤ì¤‘ìƒì†ì´ ê°€ëŠ¥í•´ì§„ ì…ˆì´ë‹¤
+	//ì¶”ìƒí´ë˜ìŠ¤ì™€ ë‹¤ë¥¸ì  : ì¸ìŠ¤í„´ìŠ¤ ë³€ìˆ˜ëŠ” ê°€ì§ˆ ìˆ˜ ì—†ê³ , ë‹¤ì¤‘ìƒì†(extends)ì´ ì•„ë‹Œ ë‹¤ì¤‘êµ¬í˜„(implements)
 	@FunctionalInterface
 	interface Calculation {
 		Integer apply(Integer x, Integer y);
 		
-		//default ¸Ş¼Òµå´Â ¿¹¿Ü (ÀÎÅÍÆäÀÌ½ºµµ Ãß»ó ¸Ş¼Òµå°¡ ¾Æ´Ñ ¸Ş¼Òµå¸¦ °¡Áú ¼ö ÀÖ´Ù´Ï..!)
+		//default ë©”ì†Œë“œëŠ” ì˜ˆì™¸ (ì¸í„°í˜ì´ìŠ¤ë„ ì¶”ìƒ ë©”ì†Œë“œê°€ ì•„ë‹Œ ë©”ì†Œë“œë¥¼ ê°€ì§ˆ ìˆ˜ ìˆë‹¤ë‹ˆ..!)
 		default void print(Integer x, Integer y) {
 			System.out.println("x : " + x);
 			System.out.println("y : " + y);
 		}
 		
-		//static ¸Ş¼Òµå´Â ¿¹¿Ü (ÀÎÅÍÆäÀÌ½ºµµ Ãß»ó ¸Ş¼Òµå°¡ ¾Æ´Ñ ¸Ş¼Òµå¸¦ °¡Áú ¼ö ÀÖ´Ù´Ï..!)
+		//static ë©”ì†Œë“œëŠ” ì˜ˆì™¸ (ì¸í„°í˜ì´ìŠ¤ë„ ì¶”ìƒ ë©”ì†Œë“œê°€ ì•„ë‹Œ ë©”ì†Œë“œë¥¼ ê°€ì§ˆ ìˆ˜ ìˆë‹¤ë‹ˆ..!)
 		static void print2(Integer x, Integer y) {
 			System.out.println("x : " + x + ", y : " + y);
 		}
 		
-		//Comparator interface µµ ³»ºÎÀûÀ¸·Î compare ¸¸ Ãß»ó¸Ş¼ÒµåÀÏ »Ó, ³ª¸ÓÁö ¸Ş¼ÒµåµéÀº ÀüºÎ default ¹× static ¸Ş¼ÒµåÀÌ´Ù.
-		//1.7 ÀÌÇÏ¿¡¼­ÀÇ Comparator ¿¡¼± ¾ÖÃÊ¿¡ Ãß»ó ¸Ş¼Òµå¸¸ Á¸Àç(1.7 ÀÌÇÏ¿£ ÀÎÅÍÆäÀÌ½º¿¡¼­ default ¸Ş¼Òµå, static ¸Ş¼Òµå ÀÚÃ¼°¡ Çã¿ëµÇÁö ¾ÊÀ½)
-		//1.8 ¿¡¼­ÀÇ Comparator ´Â default ¸Ş¼Òµå ¹× static ¸Ş¼Òµå ´Ù¼ö Á¸Àç but Ãß»ó¸Ş¼Òµå´Â ´Ü ÇÑ °³( compare() )
+		//Comparator interface ë„ ë‚´ë¶€ì ìœ¼ë¡œ compare ë§Œ ì¶”ìƒë©”ì†Œë“œì¼ ë¿, ë‚˜ë¨¸ì§€ ë©”ì†Œë“œë“¤ì€ ì „ë¶€ default ë° static ë©”ì†Œë“œì´ë‹¤.
+		//1.7 ì´í•˜ì—ì„œì˜ Comparator ì—ì„  ì• ì´ˆì— ì¶”ìƒ ë©”ì†Œë“œë§Œ ì¡´ì¬(1.7 ì´í•˜ì—” ì¸í„°í˜ì´ìŠ¤ì—ì„œ default ë©”ì†Œë“œ, static ë©”ì†Œë“œ ìì²´ê°€ í—ˆìš©ë˜ì§€ ì•ŠìŒ)
+		//1.8 ì—ì„œì˜ Comparator ëŠ” default ë©”ì†Œë“œ ë° static ë©”ì†Œë“œ ë‹¤ìˆ˜ ì¡´ì¬ but ì¶”ìƒë©”ì†Œë“œëŠ” ë‹¨ í•œ ê°œ( compare() )
 	}
 	
 	class Calculator {
@@ -60,8 +60,8 @@ public class Main4 {
 	
 	@FunctionalInterface
 	interface ExtendsCalculation extends Calculation{
-		//default ¸Ş¼Òµå´Â ¿À¹ö¶óÀÌµùÀÌ °¡´ÉÇÏ´Ù
-		//static ¸Ş¼Òµå´Â ¿À¹ö¶óÀÌµùÀÌ ºÒ°¡
+		//default ë©”ì†Œë“œëŠ” ì˜¤ë²„ë¼ì´ë”©ì´ ê°€ëŠ¥í•˜ë‹¤
+		//static ë©”ì†Œë“œëŠ” ì˜¤ë²„ë¼ì´ë”©ì´ ë¶ˆê°€
 		@Override
 		default void print(Integer x, Integer y){
 			System.out.println("x,y : " + x +","+ y);

@@ -1,4 +1,4 @@
-package algo_datastructure.tree;
+ï»¿package algo_datastructure.tree;
 
 import java.util.Arrays;
 
@@ -9,7 +9,7 @@ public class BinarySearch {
 		
 		int[] arr = {1, 4, 8, 12, 18, 20, 23, 26, 30};
 		
-		Arrays.sort(arr);	//¿Ã¸²Â÷¼ø Á¤·Ä
+		Arrays.sort(arr);	//ì˜¬ë¦¼ì°¨ìˆœ ì •ë ¬
 		  
 		
 		System.out.println(binarySearch_recursion(arr, 0, arr.length-1, 4));
@@ -18,16 +18,16 @@ public class BinarySearch {
 	}
 	
 	public static int binarySearch_recursion(int[] arr, int start, int last, int no) {
-		int mid = (int)(start+last)/2;	//Áß°£ °ª(³ª¸ÓÁö´Â ¹ö¸°´Ù)
+		int mid = (int)(start+last)/2;	//ì¤‘ê°„ ê°’(ë‚˜ë¨¸ì§€ëŠ” ë²„ë¦°ë‹¤)
 		
 		if(arr[mid] == no) {
 			return mid;
 		} else if(arr[mid] > no){
-			//Áß°£ °ªÀÌ Ã£°íÀÚ ÇÏ´Â °ªº¸´Ù Å« °æ¿ì
+			//ì¤‘ê°„ ê°’ì´ ì°¾ê³ ìž í•˜ëŠ” ê°’ë³´ë‹¤ í° ê²½ìš°
 			last = mid - 1;
 			return binarySearch_recursion(arr, start, last, no);
 		} else {
-			//Áß°£ °ªÀÌ Ã£°íÀÚ ÇÏ´Â °ªº¸´Ù ÀÛÀº °æ¿ì
+			//ì¤‘ê°„ ê°’ì´ ì°¾ê³ ìž í•˜ëŠ” ê°’ë³´ë‹¤ ìž‘ì€ ê²½ìš°
 			start = mid + 1;
 			return binarySearch_recursion(arr, start, last, no);
 		}
@@ -37,14 +37,14 @@ public class BinarySearch {
 	public static int binarySearch_loop(int[] arr, int start, int last, int no) {
 		
 		while(true) {
-			int mid = (int)(start + last)/2;	//Áß°£ °ª(³ª¸ÓÁö´Â ¹ö¸°´Ù)
+			int mid = (int)(start + last)/2;	//ì¤‘ê°„ ê°’(ë‚˜ë¨¸ì§€ëŠ” ë²„ë¦°ë‹¤)
 			if(arr[mid] == no) {
 				return mid;
 			} else if(arr[mid] > no) {
-				//Áß°£ °ªÀÌ Ã£°íÀÚ ÇÏ´Â °ªº¸´Ù Å« °æ¿ì
+				//ì¤‘ê°„ ê°’ì´ ì°¾ê³ ìž í•˜ëŠ” ê°’ë³´ë‹¤ í° ê²½ìš°
 				last = mid - 1;
 			} else {
-				//Áß°£ °ªÀÌ Ã£°íÀÚ ÇÏ´Â °ªº¸´Ù ÀÛÀº °æ¿ì
+				//ì¤‘ê°„ ê°’ì´ ì°¾ê³ ìž í•˜ëŠ” ê°’ë³´ë‹¤ ìž‘ì€ ê²½ìš°
 				start = mid + 1;
 			}
 		}

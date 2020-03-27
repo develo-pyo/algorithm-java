@@ -1,4 +1,4 @@
-package algo_hackerrank;
+ï»¿package algo_hackerrank;
 
 public class FindPrimeNumber {
 
@@ -27,7 +27,7 @@ public class FindPrimeNumber {
       return answer;
    }
    
-   //0¼Ò¼ö¾Æ´Ô 1¼Ò¼ö
+   //0ì†Œìˆ˜ì•„ë‹˜ 1ì†Œìˆ˜
    private static int isPrimeNumber(int num) {
       int last=num/2;
       if(num==1) {

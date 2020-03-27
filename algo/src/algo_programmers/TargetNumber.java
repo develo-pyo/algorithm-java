@@ -1,11 +1,11 @@
-package algo_programmers;
+ï»¿package algo_programmers;
 
 public class TargetNumber {
-	//ÇÁ·Î±×·¡¸Ó½º > ÄÚµùÅ×½ºÆ®¿¬½À > ±íÀÌ/³Êºñ ¿ì¼±Âü»ö(DFS/BFS) > Å¸°Ù ³Ñ¹ö
-//	n°³ÀÇ À½ÀÌ ¾Æ´Ñ Á¤¼ö°¡ ÀÖ½À´Ï´Ù. ÀÌ ¼ö¸¦ ÀûÀýÈ÷ ´õÇÏ°Å³ª »©¼­ Å¸°Ù ³Ñ¹ö¸¦ ¸¸µé·Á°í ÇÕ´Ï´Ù. 
-//	¿¹¸¦ µé¾î [1, 1, 1, 1, 1]·Î ¼ýÀÚ 3À» ¸¸µé·Á¸é ´ÙÀ½ ´Ù¼¸ ¹æ¹ýÀ» ¾µ ¼ö ÀÖ½À´Ï´Ù.
+	//í”„ë¡œê·¸ëž˜ë¨¸ìŠ¤ > ì½”ë”©í…ŒìŠ¤íŠ¸ì—°ìŠµ > ê¹Šì´/ë„ˆë¹„ ìš°ì„ ì°¸ìƒ‰(DFS/BFS) > íƒ€ê²Ÿ ë„˜ë²„
+//	nê°œì˜ ìŒì´ ì•„ë‹Œ ì •ìˆ˜ê°€ ìžˆìŠµë‹ˆë‹¤. ì´ ìˆ˜ë¥¼ ì ì ˆížˆ ë”í•˜ê±°ë‚˜ ë¹¼ì„œ íƒ€ê²Ÿ ë„˜ë²„ë¥¼ ë§Œë“¤ë ¤ê³  í•©ë‹ˆë‹¤. 
+//	ì˜ˆë¥¼ ë“¤ì–´ [1, 1, 1, 1, 1]ë¡œ ìˆ«ìž 3ì„ ë§Œë“¤ë ¤ë©´ ë‹¤ìŒ ë‹¤ì„¯ ë°©ë²•ì„ ì“¸ ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
 	
-//	DFS : Depth-First Search ±íÀÌ ¿ì¼± Å½»ö ¾Ë°í¸®Áò
+//	DFS : Depth-First Search ê¹Šì´ ìš°ì„  íƒìƒ‰ ì•Œê³ ë¦¬ì¦˜
 //	https://gmlwjd9405.github.io/2018/08/14/algorithm-dfs.html
 	
 	public static void main(String[] args) {

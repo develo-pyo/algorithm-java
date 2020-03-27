@@ -1,4 +1,4 @@
-package algo_hackerrank;
+ï»¿package algo_hackerrank;
 
 import java.math.BigInteger;
 
@@ -15,7 +15,7 @@ public class SeparateTheNumbers {
 	private static void solu(String input) {
 		
 		if(input.length()<2) {
-			//¿¹¿ÜÃ³¸®
+			//ì˜ˆì™¸ì²˜ë¦¬
 			System.out.println("NO");
 			return;
 		} else {

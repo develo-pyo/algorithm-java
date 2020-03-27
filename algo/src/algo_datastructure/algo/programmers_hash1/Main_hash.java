@@ -1,30 +1,30 @@
-package algo_datastructure.algo.programmers_hash1;
+ï»¿package algo_datastructure.algo.programmers_hash1;
 
 import java.util.HashMap;
 import java.util.Set;
 
 public class Main_hash {
-	//ÇÁ·Î±×·¡¸Ó½º > ÇØ½Ã > ¿ÏÁÖÇÏÁö ¸øÇÑ ¼±¼ö 
+	//í”„ë¡œê·¸ë˜ë¨¸ìŠ¤ > í•´ì‹œ > ì™„ì£¼í•˜ì§€ ëª»í•œ ì„ ìˆ˜ 
 	public static void main(String[] args) {
 		String[] part = {"mislov", "b", "b", "b"};
 		String[] comp = {"mislov", "b", "b"};
 		System.out.println(solu(part, comp));
 	}
 	
-	//´Ù¸¥ »ç¶÷ÀÇ Ç®ÀÌ hashmap ÀÇ .getOrDefault ¸Ş¼Òµå »ç¿ë
+	//ë‹¤ë¥¸ ì‚¬ëŒì˜ í’€ì´ hashmap ì˜ .getOrDefault ë©”ì†Œë“œ ì‚¬ìš©
 	private static String solu(String[] part, String[] comp) {
 	   String answer = "";
 	   
         HashMap<String, Integer> hm = new HashMap<>();
         
         for (String player : part) {
-        	int val = hm.getOrDefault(player, 0) + 1;	//±âÁ¸ value °ªÀ» °¡Á®¿Â ÈÄ +1
+        	int val = hm.getOrDefault(player, 0) + 1;	//ê¸°ì¡´ value ê°’ì„ ê°€ì ¸ì˜¨ í›„ +1
         	hm.put(player, val);
         	System.out.print("player:"+player+" / "+val+"\n");
         }
         System.out.println("-----------------");
         for (String player : comp) {
-        	int val = hm.get(player) - 1;	//±âÁ¸ value °ªÀ» °¡Á®¿Â ÈÄ +1
+        	int val = hm.get(player) - 1;	//ê¸°ì¡´ value ê°’ì„ ê°€ì ¸ì˜¨ í›„ +1
         	hm.put(player, val);
         	System.out.print("player:"+player+" / " + val + "\n");
         }

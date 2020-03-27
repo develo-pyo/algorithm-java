@@ -1,9 +1,9 @@
-package design_pattern.factory.factory2;
+ï»¿package design_pattern.factory.factory2;
 
 public class SamsungComputer implements Computer {
 	
 	public SamsungComputer() {
-		System.out.println("SAMSUNG ÄÄÇ»ÅÍ »ı¼º");
+		System.out.println("SAMSUNG ì»´í“¨í„° ìƒì„±");
 	}
 	
 	public SamsungKeyboard createKeyboard() {

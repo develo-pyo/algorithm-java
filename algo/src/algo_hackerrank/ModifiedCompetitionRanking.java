@@ -1,11 +1,11 @@
-package algo_hackerrank;
+ï»¿package algo_hackerrank;
 
 public class ModifiedCompetitionRanking {
 	public static void main(String[] args) {
 		
 		int[] scores = {80, 90, 90, 100};        
 		
-		//µ¿Á¡ÀÚ°¡ ÀÖ´Ù¸é ¼øÀ§+1 À» ½ÃÅ°´Â ¹æ½ÄÀ¸·Î ¼øÀ§ ¸Å±â±â (ex:1334)
+		//ë™ì ìžê°€ ìžˆë‹¤ë©´ ìˆœìœ„+1 ì„ ì‹œí‚¤ëŠ” ë°©ì‹ìœ¼ë¡œ ìˆœìœ„ ë§¤ê¸°ê¸° (ex:1334)
         int[] ranks = new int[scores.length];
         ranks[scores.length - 1] = scores.length;
         for (int i = ranks.length - 2; i >= 0; i--){

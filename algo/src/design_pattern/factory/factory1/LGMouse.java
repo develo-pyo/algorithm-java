@@ -1,9 +1,9 @@
-package design_pattern.factory.factory1;
+ï»¿package design_pattern.factory.factory1;
 
 public class LGMouse implements Mouse {
 	
 	public LGMouse() {
-		System.out.println("LG ¸¶¿ì½º »ı¼º");
+		System.out.println("LG ë§ˆìš°ìŠ¤ ìƒì„±");
 	}
 	
 }

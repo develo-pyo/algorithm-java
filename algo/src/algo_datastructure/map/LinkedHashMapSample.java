@@ -1,4 +1,4 @@
-package algo_datastructure.map;
+ï»¿package algo_datastructure.map;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -7,7 +7,7 @@ public class LinkedHashMapSample {
 
 	public static void main(String[] args) {
 		
-		//ÀÔ·ÂÇÑ ¼ø¼­°¡ º¸ÀåµÊ
+		//ì…ë ¥í•œ ìˆœì„œê°€ ë³´ì¥ë¨
 		//Thread safe X
 		
 		Map<Integer, Integer> map = new LinkedHashMap<>();

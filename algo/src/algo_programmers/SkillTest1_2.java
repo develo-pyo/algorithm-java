@@ -1,11 +1,11 @@
-package algo_programmers;
+ï»¿package algo_programmers;
 
 public class SkillTest1_2 {
 
 	public static void main(String[] args) {
 		  int n = 5;
 		  String answer = "";
-	      String txt = "¼ö¹Ú";
+	      String txt = "ìˆ˜ë°•";
 	      
 	      int r = n/2;
 	      int mod = n%2;
@@ -13,7 +13,7 @@ public class SkillTest1_2 {
 	          answer+=txt;
 	      }
 	      if(mod==1){
-	          answer+="¼ö";
+	          answer+="ìˆ˜";
 	      }
 	      
 	      System.out.println(answer);

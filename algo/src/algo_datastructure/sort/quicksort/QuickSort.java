@@ -1,13 +1,13 @@
-package algo_datastructure.sort.quicksort;
+ï»¿package algo_datastructure.sort.quicksort;
 
 public class QuickSort {
 		
-	// ½Ã°£º¹Àâµµ 
+	// ì‹œê°„ë³µì¡ë„ 
 	// BEST  nlogn
 	// AVG   nlogn
 	// WORST n^2
 	
-	//ÃâÃ³: https://hahahoho5915.tistory.com/9 [³Í ÀßÇÏ°í ÀÖ¾î]
+	//ì¶œì²˜: https://hahahoho5915.tistory.com/9 [ë„Œ ì˜í•˜ê³  ìˆì–´]
 	
 	private static int data[] = {8, 5, 2, 1, 3, 4, 7, 6};
 	

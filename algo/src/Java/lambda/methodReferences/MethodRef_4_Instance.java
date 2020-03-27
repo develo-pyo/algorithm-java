@@ -1,4 +1,4 @@
-package Java.lambda.methodReferences;
+ï»¿package Java.lambda.methodReferences;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -8,13 +8,13 @@ import java.util.List;
 public class MethodRef_4_Instance {
 	/**
 	 * 2
-	 * ¶÷´ÙÀÇ ¸Ş¼Òµå ÂüÁ¶
-	 * ¸Ş¼Òµå ÂüÁ¶´Â ¸Å°³º¯¼öÀÇ Á¤º¸ ¹× ¸®ÅÏ Å¸ÀÔÀ» ¾Ë¾Æ³»¾î ¶÷´Ù½Ä¿¡ ºÒÇÊ¿äÇÑ ¸Å°³ º¯¼ö¸¦ Á¦°ÅÇÏ±â À§ÇÔ
+	 * ëŒë‹¤ì˜ ë©”ì†Œë“œ ì°¸ì¡°
+	 * ë©”ì†Œë“œ ì°¸ì¡°ëŠ” ë§¤ê°œë³€ìˆ˜ì˜ ì •ë³´ ë° ë¦¬í„´ íƒ€ì…ì„ ì•Œì•„ë‚´ì–´ ëŒë‹¤ì‹ì— ë¶ˆí•„ìš”í•œ ë§¤ê°œ ë³€ìˆ˜ë¥¼ ì œê±°í•˜ê¸° ìœ„í•¨
 	 * https://futurecreator.github.io/2018/08/02/java-lambda-method-references/
 	 */
 	public static void main(String[] args){
 		
-		/** 4. ÀÎ½ºÅÏ½º ¸Ş¼Òµå ÂüÁ¶ */
+		/** 4. ì¸ìŠ¤í„´ìŠ¤ ë©”ì†Œë“œ ì°¸ì¡° */
 		Person person = new Person("pyo");
 		Func func = person::getName;
 		System.out.println(func.anony());

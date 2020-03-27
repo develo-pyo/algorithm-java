@@ -1,4 +1,4 @@
-package algo_hackerrank;
+ï»¿package algo_hackerrank;
 
 public class LisasWorkbook {
 
@@ -18,12 +18,12 @@ public class LisasWorkbook {
 			
 			for(int problem=1; problem <=problems; problem++) {
 				if(problem == page) {
-					//ÆäÀÌÁö¿Í ¹®Ç×¹øÈ£°¡ ÀÏÄ¡ÇÏ¸é °á°ú++
+					//íŽ˜ì´ì§€ì™€ ë¬¸í•­ë²ˆí˜¸ê°€ ì¼ì¹˜í•˜ë©´ ê²°ê³¼++
 					result++;
 				}
 				if(problem % k == 0 || problem==problems) {
-					//¹®Ç×¹øÈ£°¡ ÃÖ´ë °¹¼ö¿¡ µµ´ÞÇÏ¸é ÆäÀÌÁö++
-					//¹®Ç×¹øÈ£°¡ ¸¶Áö¸· ¹®Ç×¹øÈ£ÀÎ °æ¿ì ÆäÀÌÁö++
+					//ë¬¸í•­ë²ˆí˜¸ê°€ ìµœëŒ€ ê°¯ìˆ˜ì— ë„ë‹¬í•˜ë©´ íŽ˜ì´ì§€++
+					//ë¬¸í•­ë²ˆí˜¸ê°€ ë§ˆì§€ë§‰ ë¬¸í•­ë²ˆí˜¸ì¸ ê²½ìš° íŽ˜ì´ì§€++
 					page++;
 				}
 			}

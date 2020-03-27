@@ -1,21 +1,21 @@
-package Java.Generic;
+ï»¿package Java.Generic;
 
 public class Client {
 	public static void main(String[] args) {
 		
 //		Cart<Product> cart1 = new Cart<>();
 //		Product p = new Product();
-//		p.setProduct("¹Ù°¡Áö");
+//		p.setProduct("ë°”ê°€ì§€");
 //		cart1.setItem(p);
 //		
 //		Cart<String> cart2 = new Cart<>();
-//		cart2.setItem("¿¬ÇÊ");
+//		cart2.setItem("ì—°í•„");
 //		
 //		Cart<Fruit> cart3 = new Cart<>();
 //		Product p2 = new Fruit();
-//		p2.setProduct("»ç°ú");
+//		p2.setProduct("ì‚¬ê³¼");
 //		Product p3 = new Fruit();
-//		p3.setProduct("¼ö¹Ú");
+//		p3.setProduct("ìˆ˜ë°•");
 //		cart3.setItem((Fruit)p2);
 //		cart3.setItem((Fruit)p3);
 //		
@@ -33,7 +33,7 @@ public class Client {
 		
 //		Cart<Fruit> cart3 = new Cart<>();
 //		Cart<Food> cart4 = new Cart<>();
-//		Calculator.add1(cart3, cart3, cart4);	//compile error, cart3 ¿¡ ÀÇÇØ .addÀÇ Å¸ÀÔÆÄ¶ó¹ÌÅÍ´Â Fruit À¸·Î Á¤ÇØÁöÁö¸¸ cart4 Food °¡ ¸Å°³º¯¼ö·Î ³Ñ¾î¿À¹Ç·Î error ¹ß»ı
+//		Calculator.add1(cart3, cart3, cart4);	//compile error, cart3 ì— ì˜í•´ .addì˜ íƒ€ì…íŒŒë¼ë¯¸í„°ëŠ” Fruit ìœ¼ë¡œ ì •í•´ì§€ì§€ë§Œ cart4 Food ê°€ ë§¤ê°œë³€ìˆ˜ë¡œ ë„˜ì–´ì˜¤ë¯€ë¡œ error ë°œìƒ
 		
 		
 	}
