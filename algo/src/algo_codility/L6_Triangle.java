@@ -19,12 +19,8 @@ public class L6_Triangle {
          long a = A[i];
          long b = A[i+1];
          long c = A[i+2];
-         if(a+b > c) {
-            if(c+b > a) {
-               if(a+c > b) {
-                  return 1;
-               }
-            }
+         if(a+b > c && c+b > a && a+c > b) {
+            return 1;
          }
       }
       
