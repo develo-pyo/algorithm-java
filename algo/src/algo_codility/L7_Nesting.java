@@ -10,7 +10,7 @@ public class L7_Nesting {
       System.out.println(solution2(S));
    }
 
-   //O(3N)
+   //O(N^3)
    private static int solution2(String S) {
       if(S==null || S.isEmpty())return 1;
       
