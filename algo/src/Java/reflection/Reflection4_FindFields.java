@@ -31,6 +31,8 @@ public class Reflection4_FindFields {
          System.out.println("modifiers int : " + modifiers);
          System.out.println("modifiers toString : " + Modifier.toString(modifiers));
          System.out.println("isPublic? : " + (modifiers == Modifier.PUBLIC));
+         f.setAccessible(true);
+         System.out.println("val : " + f.get(new ExampleClass()));
          
          System.out.println();
       }
