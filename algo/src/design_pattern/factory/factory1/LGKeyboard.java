@@ -1,4 +1,4 @@
-﻿package design_pattern.factory.factory1;
+package design_pattern.factory.factory1;
 
 public class LGKeyboard implements Keyboard {
 	public LGKeyboard() {

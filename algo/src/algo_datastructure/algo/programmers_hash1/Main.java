@@ -1,4 +1,4 @@
-﻿package algo_datastructure.algo.programmers_hash1;
+package algo_datastructure.algo.programmers_hash1;
 
 import java.util.Arrays;
 import java.util.Stack;

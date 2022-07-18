@@ -1,4 +1,4 @@
-﻿package Java.reflection;
+package Java.reflection;
 
 public class ExampleSuperClass {
 

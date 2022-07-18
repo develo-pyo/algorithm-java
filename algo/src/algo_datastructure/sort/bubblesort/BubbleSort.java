@@ -1,4 +1,4 @@
-﻿package algo_datastructure.sort.bubblesort;
+package algo_datastructure.sort.bubblesort;
 
 public class BubbleSort {
 	

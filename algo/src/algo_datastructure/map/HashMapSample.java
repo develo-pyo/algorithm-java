@@ -1,4 +1,4 @@
-﻿package algo_datastructure.map;
+package algo_datastructure.map;
 
 import java.util.HashMap;
 import java.util.Map;

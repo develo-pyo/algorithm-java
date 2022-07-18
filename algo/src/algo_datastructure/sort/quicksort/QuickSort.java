@@ -1,4 +1,4 @@
-﻿package algo_datastructure.sort.quicksort;
+package algo_datastructure.sort.quicksort;
 
 public class QuickSort {
 		

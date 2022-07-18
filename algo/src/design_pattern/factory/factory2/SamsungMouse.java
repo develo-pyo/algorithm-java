@@ -1,4 +1,4 @@
-﻿package design_pattern.factory.factory2;
+package design_pattern.factory.factory2;
 
 public class SamsungMouse implements Mouse {
 	public SamsungMouse() {

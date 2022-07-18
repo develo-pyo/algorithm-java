@@ -1,4 +1,4 @@
-﻿package algo_datastructure.sort.insertionsort;
+package algo_datastructure.sort.insertionsort;
 
 public class InsertionSort {
 	

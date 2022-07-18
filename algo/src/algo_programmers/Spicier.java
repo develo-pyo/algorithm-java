@@ -1,4 +1,4 @@
-﻿package algo_programmers;
+package algo_programmers;
 
 import java.util.Iterator;
 import java.util.PriorityQueue;

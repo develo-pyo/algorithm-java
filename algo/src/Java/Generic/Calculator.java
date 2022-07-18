@@ -1,4 +1,4 @@
-﻿package Java.Generic;
+package Java.Generic;
 
 public class Calculator {
 	public static <T extends Food> int add1(Cart<T> cart1, Cart<T> cart2, Cart<T> cart3) {

@@ -1,4 +1,4 @@
-﻿package Java.reflection;
+package Java.reflection;
 
 //https://gyrfalcon.tistory.com/entry/Java-Reflection
 

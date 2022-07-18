@@ -1,4 +1,4 @@
-﻿package design_pattern.builder;
+package design_pattern.builder;
 
 public class Client {
 

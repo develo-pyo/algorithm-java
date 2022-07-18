@@ -1,4 +1,4 @@
-﻿package algo_programmers;
+package algo_programmers;
 
 public class SkillTest2_4 {
 //	조이스틱으로 알파벳 이름을 완성하세요. 맨 처음엔 A로만 이루어져 있습니다.

@@ -1,4 +1,4 @@
-﻿package algo_hackerrank;
+package algo_hackerrank;
 
 public class DenseRanking {
 	public static void main(String[] args) {

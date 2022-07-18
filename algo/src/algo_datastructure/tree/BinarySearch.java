@@ -1,4 +1,4 @@
-﻿package algo_datastructure.tree;
+package algo_datastructure.tree;
 
 import java.util.Arrays;
 

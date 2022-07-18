@@ -1,4 +1,4 @@
-﻿package algo_datastructure.list;
+package algo_datastructure.list;
 
 import java.util.ArrayList;
 import java.util.Iterator;

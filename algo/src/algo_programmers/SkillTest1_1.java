@@ -1,4 +1,4 @@
-﻿package algo_programmers;
+package algo_programmers;
 
 public class SkillTest1_1 {
 	//프로그래머스 스킬테스트1

@@ -1,4 +1,4 @@
-﻿package algo_programmers;
+package algo_programmers;
 
 import java.util.Arrays;
 import java.util.Stack;

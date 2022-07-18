@@ -1,4 +1,4 @@
-﻿package design_pattern.strategy;
+package design_pattern.strategy;
 
 public class Human implements Shout{
 	

@@ -1,4 +1,4 @@
-﻿package Java.lambda.basic;
+package Java.lambda.basic;
 
 public class Main1 {
    

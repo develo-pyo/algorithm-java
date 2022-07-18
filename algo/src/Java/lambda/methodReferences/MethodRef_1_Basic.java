@@ -1,4 +1,4 @@
-﻿package Java.lambda.methodReferences;
+package Java.lambda.methodReferences;
 
 public class MethodRef_1_Basic {
 	/**

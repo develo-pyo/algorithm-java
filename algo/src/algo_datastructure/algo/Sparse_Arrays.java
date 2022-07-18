@@ -1,4 +1,4 @@
-﻿package algo_datastructure.algo;
+package algo_datastructure.algo;
 
 public class Sparse_Arrays {
 	

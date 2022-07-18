@@ -1,4 +1,4 @@
-﻿package Java.lambda.methodReferences;
+package Java.lambda.methodReferences;
 
 import java.util.List;
 import java.util.function.BiFunction;

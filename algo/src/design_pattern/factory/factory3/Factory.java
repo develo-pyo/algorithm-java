@@ -1,4 +1,4 @@
-﻿package design_pattern.factory.factory3;
+package design_pattern.factory.factory3;
 
 public class Factory {
 	public static Mouse createMouse(String type) {

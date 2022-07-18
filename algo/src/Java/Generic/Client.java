@@ -1,4 +1,4 @@
-﻿package Java.Generic;
+package Java.Generic;
 
 public class Client {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-﻿package Java.Generic;
+package Java.Generic;
 
 public class Food extends Product{
 	private int cost=1000; 

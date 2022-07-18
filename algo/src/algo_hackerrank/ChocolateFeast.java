@@ -1,4 +1,4 @@
-﻿package algo_hackerrank;
+package algo_hackerrank;
 
 public class ChocolateFeast {
 
