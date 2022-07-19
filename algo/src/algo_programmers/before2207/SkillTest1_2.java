@@ -1,4 +1,4 @@
-package algo_programmers;
+package algo_programmers.before2207;
 
 public class SkillTest1_2 {
 

@@ -1,4 +1,4 @@
-package algo_programmers;
+package algo_programmers.p2207;
 
 import java.util.HashSet;
 import java.util.Set;
